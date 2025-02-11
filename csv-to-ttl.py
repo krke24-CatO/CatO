@@ -2,8 +2,8 @@ import pandas as pd
 from rdflib import Graph, Literal, URIRef, Namespace
 from rdflib.namespace import XSD, OWL, RDF, RDFS, DCTERMS
 
-dir = r"C:\Users\ezgi\Desktop\cato\example_data.csv"
-df = pd.read_csv(dir).fillna("")
+url = "https://github.com/krke24-CatO/CatO/blob/main/data.csv"
+df = pd.read_csv(url).fillna("")
 g = Graph()
 cato = Namespace("http://www.semanticweb.org/CatO/")
 persp = Namespace("http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#")
@@ -212,5 +212,5 @@ for idx, row in df.iterrows():
     
 
 turtle_str = g.serialize(format="turtle", base=cato, encoding="utf-8")
-with open("output.ttl", "wb") as f:
+with open("cato.ttl", "wb") as f:
     f.write(turtle_str)
