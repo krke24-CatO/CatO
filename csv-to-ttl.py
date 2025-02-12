@@ -31,21 +31,21 @@ g.add((persp.Eventuality, RDF.type, OWL.Class))
 g.add((arco.ArchaeologicalProperty, RDF.type, OWL.Class))
 g.add((arco.ArchaeologicalProperty, RDFS.subClassOf, persp.Eventuality))
 g.add((schema.SizeSpecification, RDF.type, OWL.Class))
-g.add((wd.myth, RDF.type, OWL.Class))
+g.add((wd.Myth, RDF.type, OWL.Class))
 g.add((arco_den_desc.FunctionalPurpose, RDF.type, OWL.Class))
 g.add((getty.PhysicalDescription, RDF.type, OWL.Class))
 g.add((arco.CulturalPropertyComponent, RDF.type, OWL.Class))
 g.add((arco.ScientificOrTechnologicalHeritage, RDF.type, OWL.Class))
 
-g.add((persp.BackgroundKnowledge, RDF.type, OWL.Class))
+g.add((persp.Background, RDF.type, OWL.Class))
 g.add((DCTERMS.PeriodOfTime, RDF.type, OWL.Class))
-g.add((DCTERMS.PeriodOfTime, RDFS.subClassOf, persp.BackgroundKnowledge))
+g.add((DCTERMS.PeriodOfTime, RDFS.subClassOf, persp.Background))
 g.add((arco_core.Agent,RDF.type,OWL.Class))
-g.add((arco_core.Agent, RDFS.subClassOf, persp.BackgroundKnowledge))
+g.add((arco_core.Agent, RDFS.subClassOf, persp.Background))
 g.add((arco_core.Location,RDF.type,OWL.Class))
-g.add((arco_core.Location, RDFS.subClassOf, persp.BackgroundKnowledge))
+g.add((arco_core.Location, RDFS.subClassOf, persp.Background))
 g.add((arco_cont_desc.Documentation,RDF.type,OWL.Class))
-g.add((arco_cont_desc.Documentation, RDFS.subClassOf, persp.BackgroundKnowledge))
+g.add((arco_cont_desc.Documentation, RDFS.subClassOf, persp.Background))
 
 g.add((persp.Cut, RDF.type, OWL.Class))
 g.add((cato.Interpretation, RDF.type, OWL.Class))
@@ -80,7 +80,7 @@ g.add((cato.Skeptical, RDFS.subClassOf, persp.Attitude))
 g.add((cato.Mixed, RDF.type, OWL.Class))
 g.add((cato.Mixed, RDFS.subClassOf, persp.Attitude))
 
-g.add((persp.Conceptualizer, RDF.type, OWL.Class))
+g.add((persp.Conceptualiser, RDF.type, OWL.Class))
 
 
 
@@ -102,8 +102,8 @@ g.add((cato.theoryType, RDF.type, OWL.ObjectProperty))
 g.add((schema.about, RDF.type, OWL.ObjectProperty))
 g.add((cato.hasAttitudeTowards, RDF.type, OWL.ObjectProperty))
 g.add((cato.inFavourOf, RDF.type, OWL.ObjectProperty))
-g.add((cato.PartOf, RDF.type, OWL.ObjectProperty))
-g.add((persp.hasAttitude, RDF.type, OWL.ObjectProperty))
+g.add((cato.partOf, RDF.type, OWL.ObjectProperty))
+g.add((persp.holds, RDF.type, OWL.ObjectProperty))
 
 
 
@@ -146,7 +146,7 @@ for idx, row in df.iterrows():
     g.add((theory_name, schema.about, ap))
     if row["Theory type"]=="Scientific archeological":
         g.add((theory_name, cato.theoryType, cato.ArcheologicalTheory))
-    elif row["Theory type"]=="Pseudoarcheological":
+    else:
         g.add((theory_name, cato.theoryType, cato.PseudoarchaeologicalTheory))
 
     interpretations = row["Interpretation"].split("; ")
@@ -155,11 +155,11 @@ for idx, row in df.iterrows():
     g.add((interpretation_name, cato.inFavourOf, theory_name))
     archeologists = URIRef(cato + "Archeologists_" + str(idx))
     pseudoarcheologists = URIRef(cato + "Pseudoarcheologists_" + str(idx))
-    g.add((archeologists, RDF.type, persp.Conceptualizer))
-    g.add((pseudoarcheologists, RDF.type, persp.Conceptualizer))
-    g.add((archeologists, persp.hasAttitude, attitudes_dict[row["Attitude of Archeologists"]]))
+    g.add((archeologists, RDF.type, persp.Conceptualiser))
+    g.add((pseudoarcheologists, RDF.type, persp.Conceptualiser))
+    g.add((archeologists, persp.holds, attitudes_dict[row["Attitude of Archeologists"]]))
     g.add((archeologists,cato.hasAttitudeTowards,interpretation_name))
-    g.add((pseudoarcheologists, persp.hasAttitude, attitudes_dict[row["Attitude of Pseudoarcheologists"]]))
+    g.add((pseudoarcheologists, persp.holds, attitudes_dict[row["Attitude of Pseudoarcheologists"]]))
     g.add((pseudoarcheologists,cato.hasAttitudeTowards,interpretation_name))
 
     for key in theory_attributes_dict:
@@ -180,6 +180,7 @@ for idx, row in df.iterrows():
                     for interpretation_type in interpretations:
                         if interpretation_type in theory_attribute_elem[2]:
                            intpt = URIRef(cato + interpretation_type)
+                           g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
                            g.add((intpt, cato.partOf, interpretation_name))
                            g.add((att_name, cato.involves, intpt))
 
@@ -207,10 +208,11 @@ for idx, row in df.iterrows():
                     for interpretation_type in interpretations:
                         if interpretation_type in attribute_elem[2]:
                            intpt = URIRef(cato + interpretation_type)
+                           g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
                            g.add((intpt, cato.partOf, interpretation_name))
                            g.add((att_name, cato.involves, intpt))
     
 
 turtle_str = g.serialize(format="turtle", base=cato, encoding="utf-8")
-with open("cato.ttl", "wb") as f:
+with open("triples.ttl", "wb") as f:
     f.write(turtle_str)

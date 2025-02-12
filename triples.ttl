@@ -1,0 +1,2681 @@
+@base <http://www.semanticweb.org/CatO/> .
+@prefix arco: <https://w3id.org/arco/ontology/arco/> .
+@prefix arco_cont_desc: <https://w3id.org/arco/ontology/context-description/> .
+@prefix arco_core: <https://w3id.org/arco/ontology/core/> .
+@prefix arco_den_desc: <https://w3id.org/arco/ontology/denotative-description/> .
+@prefix cato: <http://www.semanticweb.org/CatO/> .
+@prefix cidoccrm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix getty: <https://www.getty.edu/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix persp: <http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <https://www.wikidata.org/wiki/> .
+
+dcterms:coverage a owl:ObjectProperty .
+
+dcterms:creator a owl:ObjectProperty .
+
+cidoccrm:P165i_is_incorporated_in a owl:ObjectProperty .
+
+persp:holds a owl:ObjectProperty .
+
+<ArchaeologicalTheory> a owl:Class ;
+    rdfs:subClassOf persp:Lens .
+
+<Archeologists_0> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_0> .
+
+<Archeologists_1> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_1> .
+
+<Archeologists_10> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_10> .
+
+<Archeologists_11> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_11> .
+
+<Archeologists_12> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_12> .
+
+<Archeologists_13> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_13> .
+
+<Archeologists_14> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_14> .
+
+<Archeologists_15> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_15> .
+
+<Archeologists_16> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_16> .
+
+<Archeologists_17> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_17> .
+
+<Archeologists_18> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_18> .
+
+<Archeologists_19> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_19> .
+
+<Archeologists_2> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_2> .
+
+<Archeologists_20> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_20> .
+
+<Archeologists_21> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_21> .
+
+<Archeologists_22> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_22> .
+
+<Archeologists_23> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_23> .
+
+<Archeologists_24> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_24> .
+
+<Archeologists_25> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_25> .
+
+<Archeologists_26> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_26> .
+
+<Archeologists_27> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_27> .
+
+<Archeologists_28> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_28> .
+
+<Archeologists_29> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_29> .
+
+<Archeologists_3> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_3> .
+
+<Archeologists_30> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_30> .
+
+<Archeologists_31> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_31> .
+
+<Archeologists_4> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_4> .
+
+<Archeologists_5> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_5> .
+
+<Archeologists_6> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_6> .
+
+<Archeologists_7> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_7> .
+
+<Archeologists_8> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_8> .
+
+<Archeologists_9> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_9> .
+
+<Documentation_0> a arco_cont_desc:Documentation ;
+    <hasContent> "herodotus" ;
+    <involves> <LackOfDocumentation> ;
+    schema:mentions <Great_Pyramid_of_Giza> ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_1> a arco_cont_desc:Documentation ;
+    <hasContent> "the histories" ;
+    <involves> <LackOfDocumentation> ;
+    schema:mentions <Great_Pyramid_of_Giza> ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_10> a arco_cont_desc:Documentation ;
+    <hasContent> "ancient egyptian religion" ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Documentation_11> a arco_cont_desc:Documentation ;
+    <hasContent> "gnostic christianity and mormonism)" ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Documentation_12> a arco_cont_desc:Documentation ;
+    <hasContent> "speculative claims in popular media" ;
+    arco_cont_desc:Documentation <Puma_Punku> .
+
+<Documentation_13> a arco_cont_desc:Documentation ;
+    <hasContent> "historical analysis" ;
+    arco_cont_desc:Documentation <Puma_Punku> .
+
+<Documentation_14> a arco_cont_desc:Documentation ;
+    <hasContent> "european explorer accounts" ;
+    arco_cont_desc:Documentation <Easter_Island_(Moai_Statues)> .
+
+<Documentation_15> a arco_cont_desc:Documentation ;
+    <hasContent> "archaeological research" ;
+    arco_cont_desc:Documentation <Easter_Island_(Moai_Statues)> .
+
+<Documentation_16> a arco_cont_desc:Documentation ;
+    <hasContent> "excavations" ;
+    schema:mentions <Sigiriya>,
+        <Teotihuacan>,
+        <Tiwanaku> ;
+    arco_cont_desc:Documentation <Baalbek_(Temple_of_Jupiter)> .
+
+<Documentation_17> a arco_cont_desc:Documentation ;
+    <hasContent> "roman inscriptions" ;
+    arco_cont_desc:Documentation <Baalbek_(Temple_of_Jupiter)> .
+
+<Documentation_18> a arco_cont_desc:Documentation ;
+    <hasContent> "scholarly research" ;
+    arco_cont_desc:Documentation <Baalbek_(Temple_of_Jupiter)> .
+
+<Documentation_19> a arco_cont_desc:Documentation ;
+    <hasContent> "fresco analysis" ;
+    arco_cont_desc:Documentation <Sigiriya> .
+
+<Documentation_2> a arco_cont_desc:Documentation ;
+    <hasContent> "wall painting in the tomb of djerhuty-hotep showing his statue being moved by a team of men dragging it on a sledge " ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_20> a arco_cont_desc:Documentation ;
+    <hasContent> "murals" ;
+    arco_cont_desc:Documentation <Teotihuacan> .
+
+<Documentation_21> a arco_cont_desc:Documentation ;
+    <hasContent> "artifacts" ;
+    schema:mentions <Tiwanaku> ;
+    arco_cont_desc:Documentation <Teotihuacan> .
+
+<Documentation_22> a arco_cont_desc:Documentation ;
+    <hasContent> "underwater surveys and geological studies" ;
+    arco_cont_desc:Documentation <Yonaguni_Monument> .
+
+<Documentation_23> a arco_cont_desc:Documentation ;
+    <hasContent> "inscriptions" ;
+    schema:mentions <Angkor_Wat>,
+        <Petra> ;
+    arco_cont_desc:Documentation <Tiwanaku> .
+
+<Documentation_24> a arco_cont_desc:Documentation ;
+    <hasContent> "bas-reliefs" ;
+    arco_cont_desc:Documentation <Angkor_Wat> .
+
+<Documentation_25> a arco_cont_desc:Documentation ;
+    <hasContent> "archaeological surveys" ;
+    schema:mentions <Petra> ;
+    arco_cont_desc:Documentation <Angkor_Wat> .
+
+<Documentation_26> a arco_cont_desc:Documentation ;
+    <hasContent> "ancient texts" ;
+    arco_cont_desc:Documentation <Petra> .
+
+<Documentation_3> a arco_cont_desc:Documentation ;
+    <hasContent> "al-mas‘udi’s" ;
+    <involves> <LackOfDocumentation> ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_4> a arco_cont_desc:Documentation ;
+    <hasContent> "meadows of gold" ;
+    <involves> <LackOfDocumentation> ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_5> a arco_cont_desc:Documentation ;
+    <hasContent> "lack of precise documentation about how exactely the great pyramid was built" ;
+    <involves> <LackOfDocumentation> ;
+    arco_cont_desc:Documentation <Great_Pyramid_of_Giza> .
+
+<Documentation_6> a arco_cont_desc:Documentation ;
+    <hasContent> "radiocarbon dating of site materials" ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Documentation_7> a arco_cont_desc:Documentation ;
+    <hasContent> "excavation reports" ;
+    schema:mentions <Puma_Punku> ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Documentation_8> a arco_cont_desc:Documentation ;
+    <hasContent> "alignments documented by archaeologists." ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Documentation_9> a arco_cont_desc:Documentation ;
+    <hasContent> "religious texts (texts and practices of hinduism" ;
+    arco_cont_desc:Documentation <Stonehenge> .
+
+<Pseudoarcheologists_0> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_0> .
+
+<Pseudoarcheologists_1> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_1> .
+
+<Pseudoarcheologists_10> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_10> .
+
+<Pseudoarcheologists_11> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_11> .
+
+<Pseudoarcheologists_12> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_12> .
+
+<Pseudoarcheologists_13> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_13> .
+
+<Pseudoarcheologists_14> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_14> .
+
+<Pseudoarcheologists_15> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_15> .
+
+<Pseudoarcheologists_16> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_16> .
+
+<Pseudoarcheologists_17> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_17> .
+
+<Pseudoarcheologists_18> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_18> .
+
+<Pseudoarcheologists_19> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_19> .
+
+<Pseudoarcheologists_2> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_2> .
+
+<Pseudoarcheologists_20> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_20> .
+
+<Pseudoarcheologists_21> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_21> .
+
+<Pseudoarcheologists_22> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_22> .
+
+<Pseudoarcheologists_23> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_23> .
+
+<Pseudoarcheologists_24> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_24> .
+
+<Pseudoarcheologists_25> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_25> .
+
+<Pseudoarcheologists_26> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_26> .
+
+<Pseudoarcheologists_27> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_27> .
+
+<Pseudoarcheologists_28> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_28> .
+
+<Pseudoarcheologists_29> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_29> .
+
+<Pseudoarcheologists_3> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_3> .
+
+<Pseudoarcheologists_30> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_30> .
+
+<Pseudoarcheologists_31> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_31> .
+
+<Pseudoarcheologists_4> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_4> .
+
+<Pseudoarcheologists_5> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_5> .
+
+<Pseudoarcheologists_6> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_6> .
+
+<Pseudoarcheologists_7> a persp:Conceptualiser ;
+    persp:holds <Supportive> ;
+    <hasAttitudeTowards> <interpretation_7> .
+
+<Pseudoarcheologists_8> a persp:Conceptualiser ;
+    persp:holds <Mixed> ;
+    <hasAttitudeTowards> <interpretation_8> .
+
+<Pseudoarcheologists_9> a persp:Conceptualiser ;
+    persp:holds <Skeptical> ;
+    <hasAttitudeTowards> <interpretation_9> .
+
+<builtWith> a owl:ObjectProperty .
+
+<hasAttitudeTowards> a owl:ObjectProperty .
+
+<hasContent> a owl:DatatypeProperty .
+
+<hasFunctionalPurpose> a owl:ObjectProperty .
+
+<hasMyth> a owl:ObjectProperty .
+
+<hasPhysicalDescription> a owl:ObjectProperty .
+
+<hasSizeSpecification> a owl:ObjectProperty .
+
+<inFavourOf> a owl:ObjectProperty .
+
+<involves> a owl:ObjectProperty .
+
+<partOf> a owl:ObjectProperty .
+
+<proposedBy> a owl:ObjectProperty .
+
+<theoryType> a owl:ObjectProperty .
+
+schema:about a owl:ObjectProperty .
+
+schema:location a owl:ObjectProperty .
+
+schema:mentiones a owl:ObjectProperty .
+
+arco:hasCulturalPropertyComponent a owl:ObjectProperty .
+
+arco_core:hasMethod a owl:ObjectProperty .
+
+persp:Cut a owl:Class .
+
+persp:Eventuality a owl:Class .
+
+<Agent_1> a arco_core:Agent ;
+    <hasContent> "extraterrestrial entities or humans who learned from them" .
+
+<Agent_10> a arco_core:Agent ;
+    <hasContent> "the descendants of noah’s ark" .
+
+<Agent_11> a arco_core:Agent ;
+    <hasContent> "neolithic people" .
+
+<Agent_14> a arco_core:Agent ;
+    <hasContent> "giants or extraterrestrial beings" .
+
+<Agent_15> a arco_core:Agent ;
+    <hasContent> "rapa nui civilization" .
+
+<Agent_16> a arco_core:Agent ;
+    <hasContent> "roman empire" .
+
+<Agent_17> a arco_core:Agent ;
+    <hasContent> "king kassapa i" .
+
+<Agent_18> a arco_core:Agent ;
+    <hasContent> "extraterrestrials" .
+
+<Agent_19> a arco_core:Agent ;
+    <hasContent> "indigenous civilization (likely totonacs or mixe-zoque)" .
+
+<Agent_20> a arco_core:Agent ;
+    <hasContent> "extraterrestrial beings or a lost" .
+
+<Agent_21> a arco_core:Agent ;
+    <hasContent> "nonhuman civilization" .
+
+<Agent_22> a arco_core:Agent ;
+    <hasContent> "natural forces or prehistoric humans" .
+
+<Agent_24> a arco_core:Agent ;
+    <hasContent> "khmer empire (suryavarman ii)" .
+
+<Agent_25> a arco_core:Agent ;
+    <hasContent> "time travelers from the future" .
+
+<Agent_26> a arco_core:Agent ;
+    <hasContent> "nabataean civilization" .
+
+<Agent_3> a arco_core:Agent ;
+    <hasContent> "probably with instructions of extraterrestrial beings" .
+
+<Agent_4> a arco_core:Agent ;
+    <hasContent> "neolithic and bronze age people" .
+
+<Agent_5> a arco_core:Agent ;
+    <hasContent> "merlin/ giant" .
+
+<Agent_6> a arco_core:Agent ;
+    <hasContent> "ancient aliens and native construction workers" .
+
+<Agent_7> a arco_core:Agent ;
+    <hasContent> "inca civilization" .
+
+<Agent_8> a arco_core:Agent ;
+    <hasContent> "giants" .
+
+<Agent_9> a arco_core:Agent ;
+    <hasContent> "survivors of atlantis" .
+
+<CulturalPropertyComponent_10> a arco:CulturalPropertyComponent ;
+    <hasContent> "sarsen stone and bluestones" .
+
+<CulturalPropertyComponent_20> a arco:CulturalPropertyComponent ;
+    <hasContent> "speculative associations with extraterrestrial influence" .
+
+<CulturalPropertyComponent_21> a arco:CulturalPropertyComponent ;
+    <hasContent> "archaeological artifacts" .
+
+<CulturalPropertyComponent_22> a arco:CulturalPropertyComponent ;
+    <hasContent> "blocks with carvings" .
+
+<CulturalPropertyComponent_23> a arco:CulturalPropertyComponent ;
+    <hasContent> "oversized stone heads (moai)" .
+
+<CulturalPropertyComponent_24> a arco:CulturalPropertyComponent ;
+    <hasContent> "ceremonial platforms (ahu)" .
+
+<CulturalPropertyComponent_25> a arco:CulturalPropertyComponent ;
+    <hasContent> "buried torsos of statues." .
+
+<CulturalPropertyComponent_26> a arco:CulturalPropertyComponent ;
+    <hasContent> "sculptural artwork" .
+
+<CulturalPropertyComponent_27> a arco:CulturalPropertyComponent ;
+    <hasContent> "ceremonial objects" .
+
+<CulturalPropertyComponent_28> a arco:CulturalPropertyComponent ;
+    <hasContent> "trilithon stones" .
+
+<CulturalPropertyComponent_29> a arco:CulturalPropertyComponent ;
+    <hasContent> "roman columns" .
+
+<CulturalPropertyComponent_3> a arco:CulturalPropertyComponent ;
+    <hasContent> "the heron" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_30> a arco:CulturalPropertyComponent ;
+    <hasContent> "temple foundations" .
+
+<CulturalPropertyComponent_31> a arco:CulturalPropertyComponent ;
+    <hasContent> "religious architecture" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_32> a arco:CulturalPropertyComponent ;
+    <hasContent> "monumental stonework" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_34> a arco:CulturalPropertyComponent ;
+    <hasContent> "rock walls" .
+
+<CulturalPropertyComponent_35> a arco:CulturalPropertyComponent ;
+    <hasContent> "water gardens" .
+
+<CulturalPropertyComponent_36> a arco:CulturalPropertyComponent ;
+    <hasContent> "mirror walls" .
+
+<CulturalPropertyComponent_39> a arco:CulturalPropertyComponent ;
+    <hasContent> "murals" .
+
+<CulturalPropertyComponent_4> a arco:CulturalPropertyComponent ;
+    <hasContent> "the monkey" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_6> a arco:CulturalPropertyComponent ;
+    <hasContent> "spirals" .
+
+<CulturalPropertyComponent_7> a arco:CulturalPropertyComponent ;
+    <hasContent> "ritual stones" .
+
+<CulturalPropertyComponent_8> a arco:CulturalPropertyComponent ;
+    <hasContent> "the hummingbird" .
+
+<CulturalPropertyComponent_9> a arco:CulturalPropertyComponent ;
+    <hasContent> "sacred site aligned with solstices" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<E73InformationObject_0> a cidoccrm:E73_Information_Object ;
+    <hasContent> "edwards, james frederick. “building the great pyramid: probable construction methods employed at giza.” technology and culture 44, no. 2 (2003): 340–54. http://www.jstor.org/stable/25148110" .
+
+<E73InformationObject_1> a cidoccrm:E73_Information_Object ;
+    <hasContent> "briar, bob" .
+
+<E73InformationObject_10> a cidoccrm:E73_Information_Object ;
+    <hasContent> "valencia, alfedo" .
+
+<E73InformationObject_11> a cidoccrm:E73_Information_Object ;
+    <hasContent> "lorah, william. \"ancient machu picchu drainage engineering\" . waterhistory.org  " .
+
+<E73InformationObject_12> a cidoccrm:E73_Information_Object ;
+    <hasContent> "pennant, shadrach . [the bully slayer (@onefoulwow)]. “giants of inca.” tiktok" .
+
+<E73InformationObject_13> a cidoccrm:E73_Information_Object ;
+    <hasContent> "london real. \"the mystery of gobekli tepe – graham hancock on london real.\" youtube, 19 sept. 2016, https://www.youtube.com/watch?v=6k5nvciygei." .
+
+<E73InformationObject_14> a cidoccrm:E73_Information_Object ;
+    <hasContent> "\"göbekli tepe, noah’s ark, and lost atlantis.\" western armenia tv, 13 feb. 2017, https://westernarmeniatv.com/en/10934/gobekli-tepe-noahs-ark-lost-atlantis." .
+
+<E73InformationObject_15> a cidoccrm:E73_Information_Object ;
+    <hasContent> "schönicke, julia (2019). \"there and back again — towards a new understanding of abandonment practices at the neolithic settlement of göbekli tepe\". bridging the gap: disciplines, times, and spaces in dialogue. vol. 1. pp. 210–237." .
+
+<E73InformationObject_16> a cidoccrm:E73_Information_Object ;
+    <hasContent> "posnansky, arthur. \"tiahuanaco: the cradle of american man\". translated by james f. shearer, j.j. augustin publisher, 1945." .
+
+<E73InformationObject_17> a cidoccrm:E73_Information_Object ;
+    <hasContent> "van tilburg, jo anne. \"among stone giants: the life of katherine routledge\". university of washington press, 2010." .
+
+<E73InformationObject_18> a cidoccrm:E73_Information_Object ;
+    <hasContent> "adam, jean-pierre. \"a propos du trilithon de baalbek. le transport et la mise en œuvre des mégalithes,\" syria, 1977" .
+
+<E73InformationObject_19> a cidoccrm:E73_Information_Object ;
+    <hasContent> "hancock" .
+
+<E73InformationObject_2> a cidoccrm:E73_Information_Object ;
+    <hasContent> "houdin, jean-pierre. \"the secret of the great pyramid: how one man's obsession led to the solution of ancient egypt's greatest mystery\", smithsonian, 2008" .
+
+<E73InformationObject_20> a cidoccrm:E73_Information_Object ;
+    <hasContent> "graham. \"fingerprints of the gods\" (1995)" .
+
+<E73InformationObject_21> a cidoccrm:E73_Information_Object ;
+    <hasContent> "graham. \"magicians of the gods\" (2015)" .
+
+<E73InformationObject_22> a cidoccrm:E73_Information_Object ;
+    <hasContent> "paranavithana, s. \"sigiriya and its significance\". 1st ed., 1956." .
+
+<E73InformationObject_23> a cidoccrm:E73_Information_Object ;
+    <hasContent> "asztory, esther. \"the art and architecture of teotihuacan\". thames and hudson, 1983." .
+
+<E73InformationObject_24> a cidoccrm:E73_Information_Object ;
+    <hasContent> "hancock, graham. \"underworld: the mysterious origins of civilization\". 1st ed., crown publishers, 2002." .
+
+<E73InformationObject_25> a cidoccrm:E73_Information_Object ;
+    <hasContent> "kimura, masaaki. \"submarine topography and geology of yonaguni\". " .
+
+<E73InformationObject_26> a cidoccrm:E73_Information_Object ;
+    <hasContent> "kolata, alan l. \"the tiwanaku: portrait of an andean civilization\". thames and hudson, 1993." .
+
+<E73InformationObject_27> a cidoccrm:E73_Information_Object ;
+    <hasContent> "\"ancient aliens.\" history channel, a+e networks, 2009–present" .
+
+<E73InformationObject_28> a cidoccrm:E73_Information_Object ;
+    <hasContent> "coe, michael. \"angkor wat: history, art, and archaeology\". thames & hudson, 2003." .
+
+<E73InformationObject_29> a cidoccrm:E73_Information_Object ;
+    <hasContent> "\"petra: lost city or alien base? connect paranormal\"" .
+
+<E73InformationObject_30> a cidoccrm:E73_Information_Object ;
+    <hasContent> "6 oct. 2024" .
+
+<E73InformationObject_31> a cidoccrm:E73_Information_Object ;
+    <hasContent> "https://connectparanormal.net/2024/10/06/petra/." .
+
+<E73InformationObject_32> a cidoccrm:E73_Information_Object ;
+    <hasContent> "bowersock, glen warren. \"petra rediscovered: lost city of the nabataeans\". publisher, year of publication." .
+
+<E73InformationObject_4> a cidoccrm:E73_Information_Object ;
+    <hasContent> "reiche, maria, \"mystery on the desert: a new revelation of ancient peru\", 1949" .
+
+<E73InformationObject_5> a cidoccrm:E73_Information_Object ;
+    <hasContent> "reinhard, johan. \"the nazca lines. a new perspective on their origin and meaning\", editorial los pinos, 1987" .
+
+<E73InformationObject_6> a cidoccrm:E73_Information_Object ;
+    <hasContent> "parker pearson, mike. \"stonehenge: exploring the greatest stone age mystery" .
+
+<E73InformationObject_7> a cidoccrm:E73_Information_Object ;
+    <hasContent> "london: simon & schuster\", 2012." .
+
+<E73InformationObject_8> a cidoccrm:E73_Information_Object ;
+    <hasContent> "geoffrey, of monmouth, bishop of st. asaph, 1100?-1154. \"the history of the kings of britain : an edition and translation of de gestis britonum (historia regum britanniae)\". woodbridge, uk,  rochester, ny:boydell press, 2007." .
+
+<E73InformationObject_9> a cidoccrm:E73_Information_Object ;
+    <hasContent> " wright, kenneth" .
+
+<FunctionalPurpose_10> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "agriculture (expanded the amount of land used for agricultural activity)" ;
+    <involves> <RelevantFunctionalPurpose> .
+
+<FunctionalPurpose_11> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "ceremonial centers (decorate ceremonial and/or administrative centers)" ;
+    <involves> <RelevantFunctionalPurpose> .
+
+<FunctionalPurpose_12> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "steps" .
+
+<FunctionalPurpose_14> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "altar" .
+
+<FunctionalPurpose_15> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "ritual site" .
+
+<FunctionalPurpose_16> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "alien base/platform" .
+
+<FunctionalPurpose_17> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "likely ceremonial and astronomical functions" .
+
+<FunctionalPurpose_18> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "markers for alien visitors or ceremonial objects" .
+
+<FunctionalPurpose_19> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "ancestor worship" .
+
+<FunctionalPurpose_2> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "the great pyramid is a portal to allow the pharaoh ro travel to another world " .
+
+<FunctionalPurpose_20> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "social status" .
+
+<FunctionalPurpose_21> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "marking locations" .
+
+<FunctionalPurpose_22> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "alien power station/assembly site" .
+
+<FunctionalPurpose_23> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "religious rituals and ceremonies" .
+
+<FunctionalPurpose_24> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "alien control center/observatory" .
+
+<FunctionalPurpose_25> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "military stronghold" .
+
+<FunctionalPurpose_26> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "royal residence" .
+
+<FunctionalPurpose_28> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "religious ceremonies" .
+
+<FunctionalPurpose_3> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "astronomical markers" .
+
+<FunctionalPurpose_30> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "residential hub" .
+
+<FunctionalPurpose_31> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "hypothesized alien base or ancient temple" .
+
+<FunctionalPurpose_32> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "ceremonial/utilitarian purpose" .
+
+<FunctionalPurpose_33> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "hypothesized alien ceremonial center" .
+
+<FunctionalPurpose_34> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "ceremonial" .
+
+<FunctionalPurpose_35> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "agricultural" .
+
+<FunctionalPurpose_37> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "symbolic representation of cosmos." .
+
+<FunctionalPurpose_38> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "hypothesized experiment or intervention by time travelers" .
+
+<FunctionalPurpose_39> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "trade" .
+
+<FunctionalPurpose_4> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "religious symbols used in rituals" .
+
+<FunctionalPurpose_40> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "water storage" .
+
+<FunctionalPurpose_41> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "burial site" .
+
+<FunctionalPurpose_5> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "landing sites for ufos" .
+
+<FunctionalPurpose_6> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "used as an astronomical observatory and ritual space" .
+
+<FunctionalPurpose_7> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "burial place erected for hundreds of noble britons" .
+
+<FunctionalPurpose_8> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "landing pad for ancient alien ships" .
+
+<FunctionalPurpose_9> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "containment (they prevented the land’s erosion from creating landslides when carrying out the construction of cities)" ;
+    <involves> <RelevantFunctionalPurpose> .
+
+<Method_0> a arco_core:Method ;
+    <hasContent> "examination of archeological evidences" .
+
+<Method_1> a arco_core:Method ;
+    <hasContent> "mathematic calculations" .
+
+<Method_10> a arco_core:Method ;
+    <hasContent> "symbolism" .
+
+<Method_11> a arco_core:Method ;
+    <hasContent> "archeological evidences" .
+
+<Method_12> a arco_core:Method ;
+    <hasContent> "speculations" .
+
+<Method_13> a arco_core:Method ;
+    <hasContent> "lack of historical evidences" .
+
+<Method_16> a arco_core:Method ;
+    <hasContent> "radiocarbon dating" .
+
+<Method_17> a arco_core:Method ;
+    <hasContent> "astronomical modeling" .
+
+<Method_18> a arco_core:Method ;
+    <hasContent> "unknown" .
+
+<Method_19> a arco_core:Method ;
+    <hasContent> "formal excavations of six terrace sites and the collection of over 100 soil samples from three strata at each test pit " .
+
+<Method_2> a arco_core:Method ;
+    <hasContent> "3d modelling" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_20> a arco_core:Method ;
+    <hasContent> "microarchaeology" .
+
+<Method_21> a arco_core:Method ;
+    <hasContent> "speculation and comparison with structures in unrelated cultures." .
+
+<Method_22> a arco_core:Method ;
+    <hasContent> "digital modeling" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_24> a arco_core:Method ;
+    <hasContent> "alignment studies" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_25> a arco_core:Method ;
+    <hasContent> "speculative interpretation based on the size and alignment of the statues." .
+
+<Method_26> a arco_core:Method ;
+    <hasContent> "oral traditions" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_27> a arco_core:Method ;
+    <hasContent> "speculation based on the size and weight of the stones" .
+
+<Method_28> a arco_core:Method ;
+    <hasContent> "claiming no ancient technology could handle them." .
+
+<Method_29> a arco_core:Method ;
+    <hasContent> "inscription analysis" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_3> a arco_core:Method ;
+    <hasContent> "physical exploration" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_30> a arco_core:Method ;
+    <hasContent> "structural study" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_31> a arco_core:Method ;
+    <hasContent> "speculation based on perceived technological anomalies in construction and irrigation." .
+
+<Method_32> a arco_core:Method ;
+    <hasContent> "fresco analysis" .
+
+<Method_33> a arco_core:Method ;
+    <hasContent> "historical texts" .
+
+<Method_34> a arco_core:Method ;
+    <hasContent> "speculative interpretation of alignments and construction" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_35> a arco_core:Method ;
+    <hasContent> "mural analysis" .
+
+<Method_36> a arco_core:Method ;
+    <hasContent> "speculative interpretation of underwater features" .
+
+<Method_37> a arco_core:Method ;
+    <hasContent> "geological surveys" .
+
+<Method_38> a arco_core:Method ;
+    <hasContent> "underwater mapping" .
+
+<Method_39> a arco_core:Method ;
+    <hasContent> "marine erosion patterns" .
+
+<Method_40> a arco_core:Method ;
+    <hasContent> "speculative interpretation of large stone structures" .
+
+<Method_41> a arco_core:Method ;
+    <hasContent> "hydrological studies" .
+
+<Method_42> a arco_core:Method ;
+    <hasContent> "speculative interpretation of architectural features" .
+
+<Method_44> a arco_core:Method ;
+    <hasContent> "aerial surveys" .
+
+<Method_45> a arco_core:Method ;
+    <hasContent> "and historical analysis" .
+
+<Method_46> a arco_core:Method ;
+    <hasContent> "speculative interpretation of engineering and architecture" .
+
+<Method_5> a arco_core:Method ;
+    <hasContent> "coincidences" .
+
+<Method_6> a arco_core:Method ;
+    <hasContent> "correlation of similiarities between geographically separated historical cultures" .
+
+<Method_8> a arco_core:Method ;
+    <hasContent> "astronomy" .
+
+<Method_9> a arco_core:Method ;
+    <hasContent> "areal photography" .
+
+<Myth_10> a wd:Myth ;
+    <hasContent> "associated with ancient myths about the origins of humanity and advanced lost technologies." .
+
+<Myth_11> a wd:Myth ;
+    <hasContent> "moai represent ancestral spirits" .
+
+<Myth_12> a wd:Myth ;
+    <hasContent> "it is claimed that the temple was built in a single night by gods or aliens using advanced tools." .
+
+<Myth_13> a wd:Myth ;
+    <hasContent> "connection to gods jupiter and baal" .
+
+<Myth_14> a wd:Myth ;
+    <hasContent> "legend of king kassapa and the lion" .
+
+<Myth_15> a wd:Myth ;
+    <hasContent> "associated with aztec myths of being built by gods (e.g. quetzalcoatl)." .
+
+<Myth_16> a wd:Myth ;
+    <hasContent> "possibly linked to japanese myths of lost civilizations." .
+
+<Myth_17> a wd:Myth ;
+    <hasContent> "linked to myths of gods creating humanity." .
+
+<Myth_18> a wd:Myth ;
+    <hasContent> "associated with creation myths of andean cultures." .
+
+<Myth_19> a wd:Myth ;
+    <hasContent> "linked to hindu creation myths depicting mount meru." .
+
+<Myth_2> a wd:Myth ;
+    <hasContent> "ancient egyptians considered aliens as gods and believed that after death they would be reunited with them. the representation of the scarab-faced god khepri guiding ra's ship of the sun was inspired by encounters with extraterrestrial beings with an insect like appearence" .
+
+<Myth_20> a wd:Myth ;
+    <hasContent> "associated with biblical and arabian myths, including being the location of moses striking water from a rock." .
+
+<Myth_3> a wd:Myth ;
+    <hasContent> "most of the pre-coulombian cultures worshiped the sun " .
+
+<Myth_4> a wd:Myth ;
+    <hasContent> "mountain dieties were believed to be responsible for providing water and controlling metereological phenomena" ;
+    <involves> <BasedOnMyth> .
+
+<Myth_5> a wd:Myth ;
+    <hasContent> "(megalithic folklore) legends credit the construction of stonehenge to merlin " ;
+    <involves> <BasedOnMyth> .
+
+<Myth_6> a wd:Myth ;
+    <hasContent> "american legends about ancient giants who built the stone buildings of peru" .
+
+<Myth_7> a wd:Myth ;
+    <hasContent> "göbekli tepe was built by the survivors of the lost city of atlantis 11600 years ago by the people of atlantis who survived a comet striking the earth at the end of the last ice age eliminating all traces of advanced civilizations. and the survivors of atlantis settled among the hunter-gatherers building göbekli tepe." ;
+    <involves> <BasedOnMyth> .
+
+<Myth_8> a wd:Myth ;
+    <hasContent> "noah was instructed by god to build an ark for all species of animals so that the species may survive an incoming cataclysmic flood. the flood was caused by a comet and that “the mountains of ararat” described in the biblical story refer to göbekli tepe. the story describes the creation of an altar which can be some of the stone structures in göbekli tepe." ;
+    <involves> <BasedOnMyth> .
+
+<Myth_9> a wd:Myth ;
+    <hasContent> "puma punku is theorized to be an alien landing site due to its large flat platform-like structures." .
+
+<PeriodOfTime_10> a dcterms:PeriodOfTime ;
+    <hasContent> "over 10000 years ago" .
+
+<PeriodOfTime_11> a dcterms:PeriodOfTime ;
+    <hasContent> "potentially 8000–10000 years ago" .
+
+<PhysicalDescription_10> a getty:PhysicalDescription ;
+    <hasContent> "outer ring of vertical sarsen standing stones" .
+
+<PhysicalDescription_11> a getty:PhysicalDescription ;
+    <hasContent> "topped by connecting horizontal lintel stones" .
+
+<PhysicalDescription_12> a getty:PhysicalDescription ;
+    <hasContent> "held in place with mortise and tenon joints" .
+
+<PhysicalDescription_19> a getty:PhysicalDescription ;
+    <hasContent> "large stone blocks with precise cuts" .
+
+<PhysicalDescription_20> a getty:PhysicalDescription ;
+    <hasContent> "interlocking joints" .
+
+<PhysicalDescription_21> a getty:PhysicalDescription ;
+    <hasContent> "and drilled holes" .
+
+<PhysicalDescription_22> a getty:PhysicalDescription ;
+    <hasContent> "weighing up to 130 tons each." .
+
+<PhysicalDescription_23> a getty:PhysicalDescription ;
+    <hasContent> "large stone blocks" .
+
+<PhysicalDescription_24> a getty:PhysicalDescription ;
+    <hasContent> "some with intricate carvings" .
+
+<PhysicalDescription_25> a getty:PhysicalDescription ;
+    <hasContent> "ruins of temples and terraces." .
+
+<PhysicalDescription_26> a getty:PhysicalDescription ;
+    <hasContent> "massive stone statues with oversized heads" .
+
+<PhysicalDescription_27> a getty:PhysicalDescription ;
+    <hasContent> "weighing up to 82 tons each" .
+
+<PhysicalDescription_28> a getty:PhysicalDescription ;
+    <hasContent> "carved from volcanic tuff." .
+
+<PhysicalDescription_29> a getty:PhysicalDescription ;
+    <hasContent> "large stone statues with oversized heads" .
+
+<PhysicalDescription_3> a getty:PhysicalDescription ;
+    <hasContent> "outer ring of vertical sarsen stones with horizontal lintels" .
+
+<PhysicalDescription_4> a getty:PhysicalDescription ;
+    <hasContent> "horseshoe arrangement of bluestones inside." .
+
+<PhysicalDescription_5> a getty:PhysicalDescription ;
+    <hasContent> "stonehenge was a great stone circle called the giants' dance" .
+
+<PhysicalDescription_6> a getty:PhysicalDescription ;
+    <hasContent> "it was built of stones that were stones of worship" .
+
+<PhysicalDescription_7> a getty:PhysicalDescription ;
+    <hasContent> "mystici lapides" .
+
+<PhysicalDescription_8> a getty:PhysicalDescription ;
+    <hasContent> "stones that were brought from afar" .
+
+<PhysicalDescription_9> a getty:PhysicalDescription ;
+    <hasContent> "and it was related in some way to the stone circles in africa and ireland" .
+
+<Proponent_0> a <Proponent> ;
+    <hasContent> " james frederick edwards" .
+
+<Proponent_1> a <Proponent> ;
+    <hasContent> "jean-pierre houdin" .
+
+<Proponent_10> a <Proponent> ;
+    <hasContent> "lorah, william" .
+
+<Proponent_11> a <Proponent> ;
+    <hasContent> "shadrach pennant" .
+
+<Proponent_13> a <Proponent> ;
+    <hasContent> "julia schönicke" .
+
+<Proponent_14> a <Proponent> ;
+    <hasContent> "arthur posnansky" .
+
+<Proponent_15> a <Proponent> ;
+    <hasContent> "jo anne van tilburg" .
+
+<Proponent_16> a <Proponent> ;
+    <hasContent> "thor heyerdahl" .
+
+<Proponent_17> a <Proponent> ;
+    <hasContent> "jean-michel chazottes" .
+
+<Proponent_18> a <Proponent> ;
+    <hasContent> "s. paranavithana" .
+
+<Proponent_19> a <Proponent> ;
+    <hasContent> "archaeologists such as rené millon" .
+
+<Proponent_20> a <Proponent> ;
+    <hasContent> "masaaki kimura" .
+
+<Proponent_21> a <Proponent> ;
+    <hasContent> "alan kolata" .
+
+<Proponent_22> a <Proponent> ;
+    <hasContent> "history channel, a+e networks" .
+
+<Proponent_23> a <Proponent> ;
+    <hasContent> "erich von däniken " .
+
+<Proponent_24> a <Proponent> ;
+    <hasContent> "michael coe " .
+
+<Proponent_25> a <Proponent> ;
+    <hasContent> "jeff o’connor" .
+
+<Proponent_26> a <Proponent> ;
+    <hasContent> "glen warren bowersock" .
+
+<Proponent_3> a <Proponent> ;
+    <hasContent> "maria reiche" .
+
+<Proponent_4> a <Proponent> ;
+    <hasContent> "johan reinhard" .
+
+<Proponent_5> a <Proponent> ;
+    <hasContent> "mike parker pearson" .
+
+<Proponent_6> a <Proponent> ;
+    <hasContent> "geoffrey of monmouth (marginally robert wace)" .
+
+<Proponent_8> a <Proponent> ;
+    <hasContent> "wright, kenneth" .
+
+<Proponent_9> a <Proponent> ;
+    <hasContent> "valencia, alfedo" .
+
+<SizeSpecification_5> a schema:SizeSpecification ;
+    <hasContent> "stone blocks up to 130 tons each." .
+
+<SizeSpecification_6> a schema:SizeSpecification ;
+    <hasContent> "several terraces, platforms, and large stone blocks (up to 130 tons)." .
+
+<Technology_0> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> " laying core blocks layer by layer and adding harder outer casing block to provide a smooth surface for the blocks to be hauled up on" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_1> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "lubrificating the surface with water" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_10> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "build by instructions recieved by an aircraft" .
+
+<Technology_11> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "stones moved using sledges and rollers" .
+
+<Technology_12> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "mortise-and-tenon joints used to connect lintels to standing stones." .
+
+<Technology_13> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "magic/ giant's intervention" .
+
+<Technology_14> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "ancient alien technology" ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_15> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "terracing is used to create flat platforms for farming and building" .
+
+<Technology_16> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "a technique called cyclopean masonry (fitting together large stones of irregular shapes to create walls and buildings)" .
+
+<Technology_17> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "hydraulic engineering" .
+
+<Technology_18> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "giants moved the necessary materials and created the terraces" .
+
+<Technology_19> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "construction appears to be made of cement " .
+
+<Technology_2> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "mounting blocks over sledges and pulling them with ropes" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_20> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "ancient atlantian technology" .
+
+<Technology_21> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "noah's descendents built the settlement and the altar" .
+
+<Technology_22> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "agglomerative building technique" .
+
+<Technology_23> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "unknown alien technology allegedly used to carve and move the massive blocks." ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_24> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "advanced stonecutting techniques" .
+
+<Technology_25> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "possibly leveraging hydraulic tools" .
+
+<Technology_26> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "astronomical alignment." .
+
+<Technology_27> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "unknown advanced tools or technologies possibly alien in origin" ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_28> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "stone carving" .
+
+<Technology_29> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "transportation methods" .
+
+<Technology_3> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "levering the blocks from the sledges and placinge them in their final position" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_30> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "unknown alien lifting and transportation technology" ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_31> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "roman construction techniques" .
+
+<Technology_32> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "cranes" .
+
+<Technology_33> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "unknown alien technology used for constructing the fortress and advanced irrigation systems" .
+
+<Technology_34> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "water management" .
+
+<Technology_35> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "terrace construction" .
+
+<Technology_37> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "advanced urban planning" .
+
+<Technology_38> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "masonry" .
+
+<Technology_39> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "astronomical alignment" .
+
+<Technology_4> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "external ramps made of stones to carry the first layers of the structure" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_40> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "claimed advanced nonhuman tools" .
+
+<Technology_41> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "potentially basic stone-cutting tools" .
+
+<Technology_42> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "advanced masonry" .
+
+<Technology_43> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "hydraulic systems" .
+
+<Technology_44> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "claimed advanced nonhuman engineering" .
+
+<Technology_45> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "sandstone masonry" .
+
+<Technology_46> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "hydraulic engineering for moats and water management." .
+
+<Technology_47> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "claimed advanced tools from the future" ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_48> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "advanced rock-carving" .
+
+<Technology_49> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "hydraulic systems for water management" .
+
+<Technology_5> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "recycling external ramps' stones into the upper stories" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_6> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "internal ramps" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_7> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "cranes to lift stones" ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<Technology_8> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "unknown alien technology " .
+
+<theory_0> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_0> ;
+    <hasContent> "The angled faces of the structure itself were used as surfaces on which to transport the blocks used to construct the pyramid. Levering techniques were only utilized for assisting the builders in a very localized fashion; such as loading and unloading sledges and positioning the building blocks in their final locations." ;
+    <proposedBy> <Proponent_0> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Great_Pyramid_of_Giza> ;
+    arco_core:hasMethod <Method_0>,
+        <Method_1> .
+
+<theory_1> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_1>,
+        <E73InformationObject_2> ;
+    <hasContent> "An external ramp was used to transport the materials for the base layers of the structure; while internal ramps were used to to transport the blocks for the higer levels. Each ramp inside the pyramid ended at a 10-square-meter space; where a crane lifted and blocks to the next ramp." ;
+    <proposedBy> <Proponent_1> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Great_Pyramid_of_Giza> ;
+    arco_core:hasMethod <Method_2>,
+        <Method_3> .
+
+<theory_10> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_12> ;
+    <hasContent> "The terraces were build by giants" ;
+    <proposedBy> <Proponent_11> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Machu_Picchu_Terraces> ;
+    arco_core:hasMethod <Method_4> .
+
+<theory_11> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_13> ;
+    <hasContent> "The settlement was created by the survivors of Atlantis" ;
+    <proposedBy> <Proponent_12> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Göbekli_Tepe> .
+
+<theory_12> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_14> ;
+    <hasContent> "The biblical story of Noah’s Ark carrying the survivors of the large catastrophic event to Göbekli Tepe" ;
+    <proposedBy> <Proponent_12> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Göbekli_Tepe> .
+
+<theory_13> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_15> ;
+    <hasContent> "There was a settlement at Göbekli Tepe; with domestic structures; extensive processing of cereals; a water supply; and tools associated with daily life." ;
+    <proposedBy> <Proponent_13> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Göbekli_Tepe> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_20> .
+
+<theory_14> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "The precision of the stone cuts and lack of evidence for advanced tools suggest that Puma Punku was built by extraterrestrial beings." ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Puma_Punku> ;
+    arco_core:hasMethod <Method_21> .
+
+<theory_15> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_16> ;
+    <hasContent> "Puma Punku was built by the Tiwanaku culture using advanced stone-cutting and construction techniques." ;
+    <proposedBy> <Proponent_14> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Puma_Punku> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_22>,
+        <Method_23>,
+        <Method_24> .
+
+<theory_16> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "The Moai statues were carved by giants or aliens as markers for extraterrestrial landing zones." ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Easter_Island_(Moai_Statues)> ;
+    arco_core:hasMethod <Method_25> .
+
+<theory_17> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_17> ;
+    <hasContent> "Ancestor worship; transportation theories" ;
+    <proposedBy> <Proponent_15>,
+        <Proponent_16> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Easter_Island_(Moai_Statues)> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_23>,
+        <Method_26> .
+
+<theory_18> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "The massive trilithon stones were placed using alien technology due to their enormous size and weight." ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Baalbek_(Temple_of_Jupiter)> ;
+    arco_core:hasMethod <Method_27>,
+        <Method_28> .
+
+<theory_19> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_18> ;
+    <hasContent> "Religious significance; advanced Roman construction" ;
+    <proposedBy> <Proponent_17> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Baalbek_(Temple_of_Jupiter)> ;
+    arco_core:hasMethod <Method_15>,
+        <Method_29>,
+        <Method_30> .
+
+<theory_2> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "Egyptians had no recognisable prehistory and didn't possess sufficientely advanced tools to built the Great Pyramid in just twenty years; so it must have been built either by extraterrestrial visitors or by humans who learned the necessary knowledge from extraterrestrials. Information about Earth's measurement are encoded in the structure: the Great Pyramid is accurately alligned towards the true north; a meridian runs through it and its geographic coordinates corresponds to the speed of light in space" ;
+    <proposedBy> <Proponent_2> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Great_Pyramid_of_Giza> ;
+    arco_core:hasMethod <Method_4>,
+        <Method_5>,
+        <Method_6> .
+
+<theory_20> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_19>,
+        <E73InformationObject_20>,
+        <E73InformationObject_21> ;
+    <hasContent> "Sigiriya was built by extraterrestrial beings as a fortress or observation center for monitoring human activities." ;
+    <proposedBy> <Proponent_12> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Sigiriya> ;
+    arco_core:hasMethod <Method_31> .
+
+<theory_21> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_22> ;
+    <hasContent> "Royal palace and stronghold" ;
+    <proposedBy> <Proponent_18> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Sigiriya> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_32>,
+        <Method_33> .
+
+<theory_22> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "Constructed by aliens due to advanced alignment and design." ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Teotihuacan> ;
+    arco_core:hasMethod <Method_34> .
+
+<theory_23> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_23> ;
+    <hasContent> "Built by a pre-Aztec indigenous civilization (possibly the Totonacs); it was a major urban; religious; and administrative center. Known for its pyramids; avenues; and astronomical alignments." ;
+    <proposedBy> <Proponent_19> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Teotihuacan> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_35> .
+
+<theory_24> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_24> ;
+    <hasContent> "Claims the Yonaguni Monument is the remnant of an advanced; nonhuman civilization or extraterrestrial base." ;
+    <proposedBy> <Proponent_12> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Yonaguni_Monument> ;
+    arco_core:hasMethod <Method_36> .
+
+<theory_25> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_25> ;
+    <hasContent> "Believed to be a natural rock formation shaped by tectonic activity and water erosion. Some suggest possible human modifications during a prehistoric period." ;
+    <proposedBy> <Proponent_20> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Yonaguni_Monument> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_37>,
+        <Method_38>,
+        <Method_39> .
+
+<theory_26> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "Claims that Tiwanaku's advanced masonry and massive stone blocks could only have been constructed with extraterrestrial assistance." ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Tiwanaku> ;
+    arco_core:hasMethod <Method_40> .
+
+<theory_27> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_26> ;
+    <hasContent> "Believed to be a ceremonial and agricultural hub of the Tiwanaku civilization; with advanced water management and masonry techniques." ;
+    <proposedBy> <Proponent_21> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Tiwanaku> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_41> .
+
+<theory_28> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_27>,
+        <E73InformationObject_3> ;
+    <hasContent> "Claims the site was built or inspired by extraterrestrial beings due to its advanced architectural symmetry and astronomical alignment." ;
+    <proposedBy> <Proponent_22>,
+        <Proponent_23> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Angkor_Wat> ;
+    arco_core:hasMethod <Method_42> .
+
+<theory_29> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_28> ;
+    <hasContent> "Built as a Hindu temple dedicated to Vishnu; later transformed into a Buddhist site. Exemplifies Khmer architectural ingenuity and symbolic representation of Mount Meru." ;
+    <proposedBy> <Proponent_24> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Angkor_Wat> ;
+    arco_core:hasMethod <Method_15>,
+        <Method_43>,
+        <Method_44>,
+        <Method_45> .
+
+<theory_3> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_4> ;
+    <hasContent> "Nasca lines were designed as astronomical markers on the horizon to show where the sun and other celestial bodies rose on significant dates.  For example The Heron’s beak points to the sunrise at the June solstice and The Spider represents Orion constellation" ;
+    <proposedBy> <Proponent_3> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Nazca_lines> ;
+    arco_core:hasMethod <Method_7>,
+        <Method_8>,
+        <Method_9> .
+
+<theory_30> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_29>,
+        <E73InformationObject_30>,
+        <E73InformationObject_31> ;
+    <hasContent> "Suggests Petra was constructed with the help of time travelers due to its advanced engineering and design that \"surpasses its time.\"" ;
+    <proposedBy> <Proponent_25> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Petra> ;
+    arco_core:hasMethod <Method_46> .
+
+<theory_31> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_32> ;
+    <hasContent> "Petra was built by the Nabataeans as a hub for trade and religious worship. Its structures; like the Treasury and Monastery; showcase advanced rock-cutting techniques and water management systems." ;
+    <proposedBy> <Proponent_26> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Petra> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_43> .
+
+<theory_4> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_5> ;
+    <hasContent> "Nasca lines were sacred path used for religious practices involving the worship of deities associated with water and fertility. Figures had symbolic meanings that would help invoking diety's help" ;
+    <proposedBy> <Proponent_4> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Nazca_lines> ;
+    arco_core:hasMethod <Method_10>,
+        <Method_11>,
+        <Method_7> .
+
+<theory_5> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "Nasca lines were created as signs for extraterrestrial beings approaching from great heigths" ;
+    <proposedBy> <Proponent_2> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Nazca_lines> ;
+    arco_core:hasMethod <Method_12>,
+        <Method_13> .
+
+<theory_6> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_6>,
+        <E73InformationObject_7> ;
+    <hasContent> "Stonehenge functioned as a solar calendar aligned with solstices; used for marking seasonal changes and rituals." ;
+    <proposedBy> <Proponent_5> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Stonehenge> ;
+    arco_core:hasMethod <Method_14>,
+        <Method_15>,
+        <Method_16>,
+        <Method_17> .
+
+<theory_7> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_8> ;
+    <hasContent> "Some legends held that Merlin had a giant build the structure for him or that he had magically transported it from Mount Killaraus in Ireland" ;
+    <proposedBy> <Proponent_6> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Stonehenge> ;
+    arco_core:hasMethod <Method_4> .
+
+<theory_8> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_3> ;
+    <hasContent> "Ancient aliens used Stonehenge as their landing pad" ;
+    <proposedBy> <Proponent_7> ;
+    <theoryType> <PseudoarchaeologicalTheory> ;
+    schema:about <Stonehenge> ;
+    arco_core:hasMethod <Method_18> .
+
+<theory_9> a <Theory> ;
+    cidoccrm:P165i_is_incorporated_in <E73InformationObject_10>,
+        <E73InformationObject_11>,
+        <E73InformationObject_9> ;
+    <hasContent> "The terraces were built by Incan natives for agricultural purposes; taking  advantage of the rainwater as a source of crop irrigation directly from channels that connected each of the levels" ;
+    <proposedBy> <Proponent_10>,
+        <Proponent_8>,
+        <Proponent_9> ;
+    <theoryType> <ArcheologicalTheory> ;
+    schema:about <Machu_Picchu_Terraces> ;
+    arco_core:hasMethod <Method_19> .
+
+persp:Lens a owl:Class .
+
+<Agent_0> a arco_core:Agent ;
+    <hasContent> "egyptian construction workers" .
+
+<Agent_13> a arco_core:Agent ;
+    <hasContent> "tiwanaku civilization" .
+
+<Agent_2> a arco_core:Agent ;
+    <hasContent> "nasca people" .
+
+<Agent_23> a arco_core:Agent ;
+    <hasContent> "extraterrestrial beings" .
+
+<CulturalPropertyComponent_0> a arco:CulturalPropertyComponent ;
+    <hasContent> "wall inclination" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_1> a arco:CulturalPropertyComponent ;
+    <hasContent> "2300000 separate blocks of stone weighing between 2 and 3 tonnes" .
+
+<CulturalPropertyComponent_11> a arco:CulturalPropertyComponent ;
+    <hasContent> "constructed with stone retaining walls and well-drained topsoil" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_12> a arco:CulturalPropertyComponent ;
+    <hasContent> "the terraces were built using deeper strata and stone chips " ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_13> a arco:CulturalPropertyComponent ;
+    <hasContent> "megaliths" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_14> a arco:CulturalPropertyComponent ;
+    <hasContent> "decoratations of anthropomorphic details" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_15> a arco:CulturalPropertyComponent ;
+    <hasContent> "clothing" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_16> a arco:CulturalPropertyComponent ;
+    <hasContent> "and sculptural reliefs of wild animals" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_17> a arco:CulturalPropertyComponent ;
+    <hasContent> "ancient domestic structures and other small buildings" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_18> a arco:CulturalPropertyComponent ;
+    <hasContent> "quarries" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_19> a arco:CulturalPropertyComponent ;
+    <hasContent> "and stone-cut cisterns" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_2> a arco:CulturalPropertyComponent ;
+    <hasContent> "outer casing stones" .
+
+<CulturalPropertyComponent_38> a arco:CulturalPropertyComponent ;
+    <hasContent> "royal symbols" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_40> a arco:CulturalPropertyComponent ;
+    <hasContent> "artifacts" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_41> a arco:CulturalPropertyComponent ;
+    <hasContent> "geological features" .
+
+<CulturalPropertyComponent_42> a arco:CulturalPropertyComponent ;
+    <hasContent> "potential prehistoric site" .
+
+<CulturalPropertyComponent_44> a arco:CulturalPropertyComponent ;
+    <hasContent> "religious monument" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_45> a arco:CulturalPropertyComponent ;
+    <hasContent> "bas-reliefs" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_46> a arco:CulturalPropertyComponent ;
+    <hasContent> "hydraulic systems." ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_47> a arco:CulturalPropertyComponent ;
+    <hasContent> " tombs" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_48> a arco:CulturalPropertyComponent ;
+    <hasContent> "water systems" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_49> a arco:CulturalPropertyComponent ;
+    <hasContent> "inscriptions" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_5> a arco:CulturalPropertyComponent ;
+    <hasContent> "the spider" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<FunctionalPurpose_0> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "funerary function: the great pyramid is pharaoh khufu's tomb" .
+
+<FunctionalPurpose_1> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "used to protect his body and allow his acension to the afterlife" .
+
+<FunctionalPurpose_13> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "settlement" .
+
+<FunctionalPurpose_27> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "hypothesized communication with or worship of extraterrestrial beings" .
+
+<FunctionalPurpose_29> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "administrative center" .
+
+<FunctionalPurpose_36> a arco_den_desc:FunctionalPurpose ;
+    <hasContent> "religious worship" .
+
+<Location_0> a arco_core:Location ;
+    <hasContent> "giza, egypt" .
+
+<Location_1> a arco_core:Location ;
+    <hasContent> "nazca desert, peru" .
+
+<Location_10> a arco_core:Location ;
+    <hasContent> "off the coast of yonaguni, japan" .
+
+<Location_11> a arco_core:Location ;
+    <hasContent> "bolivia near lake titicaca" .
+
+<Location_12> a arco_core:Location ;
+    <hasContent> "siem reap, cambodia" .
+
+<Location_13> a arco_core:Location ;
+    <hasContent> "ma’an, jordan" .
+
+<Location_2> a arco_core:Location ;
+    <hasContent> "salisbury plain in wiltshire, england" .
+
+<Location_3> a arco_core:Location ;
+    <hasContent> "urubamba, cusco, peru" .
+
+<Location_4> a arco_core:Location ;
+    <hasContent> "göbekli tepe, şanlıurfa, türkiye" .
+
+<Location_5> a arco_core:Location ;
+    <hasContent> "tiwanaku, bolivia" .
+
+<Location_6> a arco_core:Location ;
+    <hasContent> "rapa nui (easter island)" .
+
+<Location_7> a arco_core:Location ;
+    <hasContent> "baalbek, lebanon" .
+
+<Location_8> a arco_core:Location ;
+    <hasContent> "matale district, sri lanka" .
+
+<Location_9> a arco_core:Location ;
+    <hasContent> "central mexico" .
+
+<Machu_Picchu_Terraces> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_3> ;
+    dcterms:coverage <PeriodOfTime_3> ;
+    <hasPhysicalDescription> <PhysicalDescription_13> ;
+    <hasSizeSpecification> <SizeSpecification_3> ;
+    schema:SizeSpecification <SizeSpecification_3> ;
+    schema:location <Location_3> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_15>,
+        <Technology_16>,
+        <Technology_17>,
+        <Technology_18>,
+        <Technology_19> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_11>,
+        <CulturalPropertyComponent_12> ;
+    arco_core:Agent <Agent_7>,
+        <Agent_8> ;
+    arco_core:Location <Location_3> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_10>,
+        <FunctionalPurpose_11>,
+        <FunctionalPurpose_12>,
+        <FunctionalPurpose_9> ;
+    getty:PhysicalDescription <PhysicalDescription_13> ;
+    wd:Myth <Myth_6> .
+
+<Method_23> a arco_core:Method ;
+    <hasContent> "carbon dating" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_43> a arco_core:Method ;
+    <hasContent> "epigraphy" .
+
+<Method_7> a arco_core:Method ;
+    <hasContent> "observation" .
+
+<Myth_0> a wd:Myth ;
+    <hasContent> "egyptian believed that deceased peoples's souls could reach the underworld through their tombs. once in this realm" .
+
+<Myth_1> a wd:Myth ;
+    <hasContent> "they would be judged by the god osiris who would determine wether the soul deserved a peaceful afterlife or not." .
+
+<PeriodOfTime_0> a dcterms:PeriodOfTime ;
+    <hasContent> "2600 b.c.- 2574 b.c." .
+
+<PeriodOfTime_1> a dcterms:PeriodOfTime ;
+    <hasContent> "between 500 bc and 500 ad" .
+
+<PeriodOfTime_12> a dcterms:PeriodOfTime ;
+    <hasContent> "400–1000 ce" .
+
+<PeriodOfTime_13> a dcterms:PeriodOfTime ;
+    <hasContent> "early 12th century ce" .
+
+<PeriodOfTime_14> a dcterms:PeriodOfTime ;
+    <hasContent> "c. 4th century bce – 2nd century ce" .
+
+<PeriodOfTime_2> a dcterms:PeriodOfTime ;
+    <hasContent> "neolithic and bronze age" .
+
+<PeriodOfTime_3> a dcterms:PeriodOfTime ;
+    <hasContent> "c. 1450 – c. 1470" .
+
+<PeriodOfTime_4> a dcterms:PeriodOfTime ;
+    <hasContent> "9500 bce" .
+
+<PeriodOfTime_5> a dcterms:PeriodOfTime ;
+    <hasContent> "around 536 ce to 1000 ce" .
+
+<PeriodOfTime_6> a dcterms:PeriodOfTime ;
+    <hasContent> "1400–1650 ce" .
+
+<PeriodOfTime_7> a dcterms:PeriodOfTime ;
+    <hasContent> "27 bce – roman period" .
+
+<PeriodOfTime_8> a dcterms:PeriodOfTime ;
+    <hasContent> "5th century ce" .
+
+<PeriodOfTime_9> a dcterms:PeriodOfTime ;
+    <hasContent> "100 bce–750 c" .
+
+<PhysicalDescription_0> a getty:PhysicalDescription ;
+    <hasContent> "monumental pyramidal structure built with blocks of limestone" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans>,
+        <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_1> a getty:PhysicalDescription ;
+    <hasContent> "mortar and granite" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans>,
+        <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_13> a getty:PhysicalDescription ;
+    <hasContent> "wide steps built on the mountains’s slopes" .
+
+<PhysicalDescription_14> a getty:PhysicalDescription ;
+    <hasContent> " the settlement has circular structures that contain massive stone pillars (megaliths). these pillars are decorated with anthropomorphic details" ;
+    <involves> <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_15> a getty:PhysicalDescription ;
+    <hasContent> "clothing" ;
+    <involves> <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_16> a getty:PhysicalDescription ;
+    <hasContent> "and sculptural reliefs of wild animals. the settlement is covered with ancient domestic structures and other small buildings" ;
+    <involves> <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_17> a getty:PhysicalDescription ;
+    <hasContent> "quarries" ;
+    <involves> <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_18> a getty:PhysicalDescription ;
+    <hasContent> "and stone-cut cisterns" ;
+    <involves> <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_2> a getty:PhysicalDescription ;
+    <hasContent> "geoglyphs dug in soil forming figures such as geometric shapes and zoomorphic or floreal designs" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans>,
+        <PhysicalDescriptionAsProbableToBuildByHumans> .
+
+<PhysicalDescription_30> a getty:PhysicalDescription ;
+    <hasContent> "trilithon stones weighing up to 800 tons" .
+
+<PhysicalDescription_31> a getty:PhysicalDescription ;
+    <hasContent> "part of the roman temple of jupiter complex." .
+
+<PhysicalDescription_32> a getty:PhysicalDescription ;
+    <hasContent> "rock fortress with advanced irrigation systems" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_33> a getty:PhysicalDescription ;
+    <hasContent> "frescoes" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_34> a getty:PhysicalDescription ;
+    <hasContent> "and mirror walls." ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_35> a getty:PhysicalDescription ;
+    <hasContent> "features large pyramids (pyramid of the sun and moon)" .
+
+<PhysicalDescription_36> a getty:PhysicalDescription ;
+    <hasContent> "temples" .
+
+<PhysicalDescription_37> a getty:PhysicalDescription ;
+    <hasContent> "and the avenue of the dead." .
+
+<PhysicalDescription_38> a getty:PhysicalDescription ;
+    <hasContent> "submerged terraces" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_39> a getty:PhysicalDescription ;
+    <hasContent> "steps" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_40> a getty:PhysicalDescription ;
+    <hasContent> "and formations resembling human-made structures." ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_41> a getty:PhysicalDescription ;
+    <hasContent> "large stone gates" .
+
+<PhysicalDescription_42> a getty:PhysicalDescription ;
+    <hasContent> "monoliths" .
+
+<PhysicalDescription_43> a getty:PhysicalDescription ;
+    <hasContent> "terraces" .
+
+<PhysicalDescription_44> a getty:PhysicalDescription ;
+    <hasContent> "and agricultural fields." .
+
+<PhysicalDescription_45> a getty:PhysicalDescription ;
+    <hasContent> "massive stone temple complex with five towers" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_46> a getty:PhysicalDescription ;
+    <hasContent> "moats" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_47> a getty:PhysicalDescription ;
+    <hasContent> "and intricate bas-reliefs." ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_48> a getty:PhysicalDescription ;
+    <hasContent> "rock-cut temples" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_49> a getty:PhysicalDescription ;
+    <hasContent> "tombs" ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<PhysicalDescription_50> a getty:PhysicalDescription ;
+    <hasContent> "and water systems carved into rose-colored sandstone cliffs." ;
+    <involves> <PhysicalDescriptionAsImprobableToBuildByHumans> .
+
+<Proponent_2> a <Proponent> ;
+    <hasContent> "erich von daniken" .
+
+<SizeAsProbableToBuildByHumans> a <SizeAsProbableToBuildByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_3>,
+        <interpretation_4> .
+
+<SizeSpecification_0> a schema:SizeSpecification ;
+    <hasContent> "138.5 m heigth, 230.33 m base, 2.6 million m3 volume" ;
+    <involves> <SizeAsImprobableToBuildByHumans> .
+
+<SizeSpecification_1> a schema:SizeSpecification ;
+    <hasContent> "1300 km combined length, 50 km2 area, 10-15 cm deep, 30 cm - 1.8 m width" ;
+    <involves> <SizeAsImprobableToBuildByHumans>,
+        <SizeAsProbableToBuildByHumans> .
+
+<SizeSpecification_10> a schema:SizeSpecification ;
+    <hasContent> "pyramid of the sun: 65m tall, avenue of the dead: 2.5km long" .
+
+<SizeSpecification_11> a schema:SizeSpecification ;
+    <hasContent> "approximately 150m long and 40m wide." .
+
+<SizeSpecification_12> a schema:SizeSpecification ;
+    <hasContent> "spreads across several square kilometers." .
+
+<SizeSpecification_13> a schema:SizeSpecification ;
+    <hasContent> "covers 162.6 hectares (400 acres), central tower is 65m tall." .
+
+<SizeSpecification_14> a schema:SizeSpecification ;
+    <hasContent> "spreads over 264 square kilometers." .
+
+<SizeSpecification_2> a schema:SizeSpecification ;
+    <hasContent> "4.0 m high, 2.1 m wide, weighing around 25 tons" ;
+    <involves> <SizeAsImprobableToBuildByHumans> .
+
+<SizeSpecification_3> a schema:SizeSpecification ;
+    <hasContent> "2 meters high and 100 meters long for each step, 4.9 hectares total" ;
+    <involves> <SizeAsImprobableToBuildByHumans> .
+
+<SizeSpecification_4> a schema:SizeSpecification ;
+    <hasContent> "15 meters high, 8 hectar areas" .
+
+<SizeSpecification_7> a schema:SizeSpecification ;
+    <hasContent> "moai statues range in size, some over 10 m tall." ;
+    <involves> <SizeAsImprobableToBuildByHumans> .
+
+<SizeSpecification_8> a schema:SizeSpecification ;
+    <hasContent> "trilithon stones weighing up to 800 tons." ;
+    <involves> <SizeAsImprobableToBuildByHumans> .
+
+<SizeSpecification_9> a schema:SizeSpecification ;
+    <hasContent> "rock fortress rising 200 m above the surrounding plains." .
+
+<Technology_36> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "claimed advanced extraterrestrial engineering" ;
+    <involves> <TechnologyAsImprobableCreatedByHumans> .
+
+<Technology_9> a arco:ScientificOrTechnologicalHeritage ;
+    <hasContent> "trenches made by removing the reddish-brown pebbles on the desert's surface leaving the light-colored clay earth underneath exposed and producing visible lines thanks to color contrast. " ;
+    <involves> <TechnologyAsProbableCreatedByHumans> .
+
+<interpretation_23> a <Interpretation> ;
+    <inFavourOf> <theory_23> .
+
+<interpretation_25> a <Interpretation> ;
+    <inFavourOf> <theory_25> .
+
+persp:Attitude a owl:Class .
+
+<Agent_12> a arco_core:Agent ;
+    <hasContent> "extraterrestrial entities" .
+
+<CulturalPropertyComponent_33> a arco:CulturalPropertyComponent ;
+    <hasContent> "frescoes" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_37> a arco:CulturalPropertyComponent ;
+    <hasContent> "architecture" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<CulturalPropertyComponent_43> a arco:CulturalPropertyComponent ;
+    <hasContent> "monuments" ;
+    <involves> <RelevantCulturalPropertyComponent> .
+
+<Göbekli_Tepe> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_4> ;
+    dcterms:coverage <PeriodOfTime_4> ;
+    <hasFunctionalPurpose> <FunctionalPurpose_13> ;
+    <hasPhysicalDescription> <PhysicalDescription_14>,
+        <PhysicalDescription_15>,
+        <PhysicalDescription_16>,
+        <PhysicalDescription_17>,
+        <PhysicalDescription_18> ;
+    <hasSizeSpecification> <SizeSpecification_4> ;
+    schema:SizeSpecification <SizeSpecification_4> ;
+    schema:location <Location_4> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_13>,
+        <CulturalPropertyComponent_14>,
+        <CulturalPropertyComponent_15>,
+        <CulturalPropertyComponent_16>,
+        <CulturalPropertyComponent_17>,
+        <CulturalPropertyComponent_18>,
+        <CulturalPropertyComponent_19> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_20>,
+        <Technology_21>,
+        <Technology_22> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_13>,
+        <CulturalPropertyComponent_14>,
+        <CulturalPropertyComponent_15>,
+        <CulturalPropertyComponent_16>,
+        <CulturalPropertyComponent_17>,
+        <CulturalPropertyComponent_18>,
+        <CulturalPropertyComponent_19> ;
+    arco_core:Agent <Agent_10>,
+        <Agent_11>,
+        <Agent_9> ;
+    arco_core:Location <Location_4> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_13>,
+        <FunctionalPurpose_14>,
+        <FunctionalPurpose_15> ;
+    getty:PhysicalDescription <PhysicalDescription_14>,
+        <PhysicalDescription_15>,
+        <PhysicalDescription_16>,
+        <PhysicalDescription_17>,
+        <PhysicalDescription_18> ;
+    wd:Myth <Myth_7>,
+        <Myth_8> .
+
+<Method_4> a arco_core:Method ;
+    <hasContent> "speculation" .
+
+<Nazca_lines> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_1> ;
+    dcterms:coverage <PeriodOfTime_1> ;
+    dcterms:creator <Agent_2> ;
+    <builtWith> <Technology_9> ;
+    <hasPhysicalDescription> <PhysicalDescription_2> ;
+    <hasSizeSpecification> <SizeSpecification_1> ;
+    schema:SizeSpecification <SizeSpecification_1> ;
+    schema:location <Location_1> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_3>,
+        <CulturalPropertyComponent_4>,
+        <CulturalPropertyComponent_5>,
+        <CulturalPropertyComponent_6>,
+        <CulturalPropertyComponent_7>,
+        <CulturalPropertyComponent_8> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_10>,
+        <Technology_9> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_5> ;
+    arco_core:Agent <Agent_2>,
+        <Agent_3> ;
+    arco_core:Location <Location_1> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_3>,
+        <FunctionalPurpose_4>,
+        <FunctionalPurpose_5> ;
+    getty:PhysicalDescription <PhysicalDescription_2> ;
+    wd:Myth <Myth_3>,
+        <Myth_4> .
+
+<Yonaguni_Monument> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_10>,
+        <PeriodOfTime_11> ;
+    <hasPhysicalDescription> <PhysicalDescription_38>,
+        <PhysicalDescription_39>,
+        <PhysicalDescription_40> ;
+    <hasSizeSpecification> <SizeSpecification_11> ;
+    schema:SizeSpecification <SizeSpecification_11> ;
+    schema:location <Location_10> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_41>,
+        <CulturalPropertyComponent_42> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_40>,
+        <Technology_41> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_41>,
+        <CulturalPropertyComponent_42> ;
+    arco_core:Agent <Agent_20>,
+        <Agent_21>,
+        <Agent_22> ;
+    arco_core:Location <Location_10> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_31>,
+        <FunctionalPurpose_32> ;
+    getty:PhysicalDescription <PhysicalDescription_38>,
+        <PhysicalDescription_39>,
+        <PhysicalDescription_40> ;
+    wd:Myth <Myth_16> .
+
+<interpretation_10> a <Interpretation> ;
+    <inFavourOf> <theory_10> .
+
+<interpretation_11> a <Interpretation> ;
+    <inFavourOf> <theory_11> .
+
+<interpretation_14> a <Interpretation> ;
+    <inFavourOf> <theory_14> .
+
+<interpretation_15> a <Interpretation> ;
+    <inFavourOf> <theory_15> .
+
+<interpretation_17> a <Interpretation> ;
+    <inFavourOf> <theory_17> .
+
+<interpretation_20> a <Interpretation> ;
+    <inFavourOf> <theory_20> .
+
+<interpretation_21> a <Interpretation> ;
+    <inFavourOf> <theory_21> .
+
+<interpretation_22> a <Interpretation> ;
+    <inFavourOf> <theory_22> .
+
+<interpretation_24> a <Interpretation> ;
+    <inFavourOf> <theory_24> .
+
+<interpretation_26> a <Interpretation> ;
+    <inFavourOf> <theory_26> .
+
+<interpretation_27> a <Interpretation> ;
+    <inFavourOf> <theory_27> .
+
+<interpretation_29> a <Interpretation> ;
+    <inFavourOf> <theory_29> .
+
+<interpretation_31> a <Interpretation> ;
+    <inFavourOf> <theory_31> .
+
+<interpretation_6> a <Interpretation> ;
+    <inFavourOf> <theory_6> .
+
+<interpretation_7> a <Interpretation> ;
+    <inFavourOf> <theory_7> .
+
+persp:Background a owl:Class .
+
+<Easter_Island_(Moai_Statues)> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_6> ;
+    dcterms:coverage <PeriodOfTime_6> ;
+    <hasSizeSpecification> <SizeSpecification_7> ;
+    schema:SizeSpecification <SizeSpecification_7> ;
+    schema:location <Location_6> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_23>,
+        <CulturalPropertyComponent_24>,
+        <CulturalPropertyComponent_25>,
+        <CulturalPropertyComponent_26>,
+        <CulturalPropertyComponent_27> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_27>,
+        <Technology_28>,
+        <Technology_29> ;
+    arco_core:Agent <Agent_14>,
+        <Agent_15> ;
+    arco_core:Location <Location_6> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_18>,
+        <FunctionalPurpose_19>,
+        <FunctionalPurpose_20>,
+        <FunctionalPurpose_21> ;
+    getty:PhysicalDescription <PhysicalDescription_26>,
+        <PhysicalDescription_27>,
+        <PhysicalDescription_28>,
+        <PhysicalDescription_29> ;
+    wd:Myth <Myth_11> .
+
+<Proponent_12> a <Proponent> ;
+    <hasContent> "graham hancock" .
+
+<RelevantFunctionalPurpose> a <RelevantFunctionalPurpose>,
+        owl:Class ;
+    <partOf> <interpretation_9> .
+
+<Sigiriya> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_8> ;
+    dcterms:coverage <PeriodOfTime_8> ;
+    dcterms:creator <Agent_12> ;
+    <hasPhysicalDescription> <PhysicalDescription_32>,
+        <PhysicalDescription_33>,
+        <PhysicalDescription_34> ;
+    <hasSizeSpecification> <SizeSpecification_9> ;
+    schema:SizeSpecification <SizeSpecification_9> ;
+    schema:location <Location_8> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_33>,
+        <CulturalPropertyComponent_34>,
+        <CulturalPropertyComponent_35>,
+        <CulturalPropertyComponent_36>,
+        <CulturalPropertyComponent_37>,
+        <CulturalPropertyComponent_38> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_33>,
+        <Technology_34>,
+        <Technology_35> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_33> ;
+    arco_core:Agent <Agent_17> ;
+    arco_core:Location <Location_8> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_24>,
+        <FunctionalPurpose_25>,
+        <FunctionalPurpose_26> ;
+    getty:PhysicalDescription <PhysicalDescription_32>,
+        <PhysicalDescription_33>,
+        <PhysicalDescription_34> ;
+    wd:Myth <Myth_14> .
+
+<interpretation_12> a <Interpretation> ;
+    <inFavourOf> <theory_12> .
+
+<interpretation_13> a <Interpretation> ;
+    <inFavourOf> <theory_13> .
+
+<interpretation_16> a <Interpretation> ;
+    <inFavourOf> <theory_16> .
+
+<interpretation_18> a <Interpretation> ;
+    <inFavourOf> <theory_18> .
+
+<interpretation_19> a <Interpretation> ;
+    <inFavourOf> <theory_19> .
+
+<interpretation_28> a <Interpretation> ;
+    <inFavourOf> <theory_28> .
+
+<interpretation_30> a <Interpretation> ;
+    <inFavourOf> <theory_30> .
+
+<interpretation_5> a <Interpretation> ;
+    <inFavourOf> <theory_5> .
+
+<interpretation_8> a <Interpretation> ;
+    <inFavourOf> <theory_8> .
+
+<interpretation_9> a <Interpretation> ;
+    <inFavourOf> <theory_9> .
+
+<Angkor_Wat> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_13> ;
+    dcterms:coverage <PeriodOfTime_13> ;
+    dcterms:creator <Agent_23> ;
+    <hasFunctionalPurpose> <FunctionalPurpose_27> ;
+    <hasPhysicalDescription> <PhysicalDescription_45>,
+        <PhysicalDescription_46>,
+        <PhysicalDescription_47> ;
+    <hasSizeSpecification> <SizeSpecification_13> ;
+    schema:SizeSpecification <SizeSpecification_13> ;
+    schema:location <Location_12> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_44>,
+        <CulturalPropertyComponent_45>,
+        <CulturalPropertyComponent_46> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_44>,
+        <Technology_45>,
+        <Technology_46> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_44>,
+        <CulturalPropertyComponent_45>,
+        <CulturalPropertyComponent_46> ;
+    arco_core:Agent <Agent_24> ;
+    arco_core:Location <Location_12> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_36>,
+        <FunctionalPurpose_37> ;
+    getty:PhysicalDescription <PhysicalDescription_45>,
+        <PhysicalDescription_46>,
+        <PhysicalDescription_47> ;
+    wd:Myth <Myth_19> .
+
+<Baalbek_(Temple_of_Jupiter)> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_7> ;
+    dcterms:coverage <PeriodOfTime_7> ;
+    dcterms:creator <Agent_12> ;
+    <hasPhysicalDescription> <PhysicalDescription_30>,
+        <PhysicalDescription_31> ;
+    <hasSizeSpecification> <SizeSpecification_8> ;
+    schema:SizeSpecification <SizeSpecification_8> ;
+    schema:location <Location_7> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_28>,
+        <CulturalPropertyComponent_29>,
+        <CulturalPropertyComponent_30>,
+        <CulturalPropertyComponent_31>,
+        <CulturalPropertyComponent_32> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_30>,
+        <Technology_31>,
+        <Technology_32> ;
+    arco_core:Agent <Agent_16> ;
+    arco_core:Location <Location_7> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_22>,
+        <FunctionalPurpose_23> ;
+    getty:PhysicalDescription <PhysicalDescription_30>,
+        <PhysicalDescription_31> ;
+    wd:Myth <Myth_12>,
+        <Myth_13> .
+
+<BasedOnMyth> a <BasedOnMyth>,
+        owl:Class ;
+    <partOf> <interpretation_11>,
+        <interpretation_12>,
+        <interpretation_4>,
+        <interpretation_7> .
+
+<Petra> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_14> ;
+    dcterms:coverage <PeriodOfTime_14> ;
+    <hasFunctionalPurpose> <FunctionalPurpose_36> ;
+    <hasPhysicalDescription> <PhysicalDescription_48>,
+        <PhysicalDescription_49>,
+        <PhysicalDescription_50> ;
+    <hasSizeSpecification> <SizeSpecification_14> ;
+    schema:SizeSpecification <SizeSpecification_14> ;
+    schema:location <Location_13> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_47>,
+        <CulturalPropertyComponent_48>,
+        <CulturalPropertyComponent_49> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_47>,
+        <Technology_48>,
+        <Technology_49> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_43>,
+        <CulturalPropertyComponent_47>,
+        <CulturalPropertyComponent_48>,
+        <CulturalPropertyComponent_49> ;
+    arco_core:Agent <Agent_25>,
+        <Agent_26> ;
+    arco_core:Location <Location_13> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_38>,
+        <FunctionalPurpose_39>,
+        <FunctionalPurpose_40>,
+        <FunctionalPurpose_41> ;
+    getty:PhysicalDescription <PhysicalDescription_48>,
+        <PhysicalDescription_49>,
+        <PhysicalDescription_50> ;
+    wd:Myth <Myth_20> .
+
+<Puma_Punku> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_5> ;
+    dcterms:coverage <PeriodOfTime_5> ;
+    schema:SizeSpecification <SizeSpecification_5>,
+        <SizeSpecification_6> ;
+    schema:location <Location_5> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_20>,
+        <CulturalPropertyComponent_21>,
+        <CulturalPropertyComponent_22> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_23>,
+        <Technology_24>,
+        <Technology_25>,
+        <Technology_26> ;
+    arco_core:Agent <Agent_12>,
+        <Agent_13> ;
+    arco_core:Location <Location_5> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_16>,
+        <FunctionalPurpose_17> ;
+    getty:PhysicalDescription <PhysicalDescription_19>,
+        <PhysicalDescription_20>,
+        <PhysicalDescription_21>,
+        <PhysicalDescription_22>,
+        <PhysicalDescription_23>,
+        <PhysicalDescription_24>,
+        <PhysicalDescription_25> ;
+    wd:Myth <Myth_10>,
+        <Myth_9> .
+
+<Teotihuacan> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_9> ;
+    dcterms:coverage <PeriodOfTime_9> ;
+    <hasPhysicalDescription> <PhysicalDescription_35>,
+        <PhysicalDescription_36>,
+        <PhysicalDescription_37> ;
+    <hasSizeSpecification> <SizeSpecification_10> ;
+    schema:SizeSpecification <SizeSpecification_10> ;
+    schema:location <Location_9> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_39>,
+        <CulturalPropertyComponent_40> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_36>,
+        <Technology_37>,
+        <Technology_38>,
+        <Technology_39> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_33>,
+        <CulturalPropertyComponent_37>,
+        <CulturalPropertyComponent_38> ;
+    arco_core:Agent <Agent_18>,
+        <Agent_19> ;
+    arco_core:Location <Location_9> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_27>,
+        <FunctionalPurpose_28>,
+        <FunctionalPurpose_29>,
+        <FunctionalPurpose_30> ;
+    getty:PhysicalDescription <PhysicalDescription_35>,
+        <PhysicalDescription_36>,
+        <PhysicalDescription_37> ;
+    wd:Myth <Myth_15> .
+
+<Tiwanaku> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_12> ;
+    dcterms:coverage <PeriodOfTime_12> ;
+    dcterms:creator <Agent_13> ;
+    <builtWith> <Technology_36> ;
+    <hasFunctionalPurpose> <FunctionalPurpose_29> ;
+    <hasPhysicalDescription> <PhysicalDescription_41>,
+        <PhysicalDescription_42>,
+        <PhysicalDescription_43>,
+        <PhysicalDescription_44> ;
+    <hasSizeSpecification> <SizeSpecification_12> ;
+    schema:SizeSpecification <SizeSpecification_12> ;
+    schema:location <Location_11> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_43> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_42>,
+        <Technology_43> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_37>,
+        <CulturalPropertyComponent_40>,
+        <CulturalPropertyComponent_43> ;
+    arco_core:Agent <Agent_23> ;
+    arco_core:Location <Location_11> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_33>,
+        <FunctionalPurpose_34>,
+        <FunctionalPurpose_35> ;
+    getty:PhysicalDescription <PhysicalDescription_41>,
+        <PhysicalDescription_42>,
+        <PhysicalDescription_43>,
+        <PhysicalDescription_44> ;
+    wd:Myth <Myth_17>,
+        <Myth_18> .
+
+<interpretation_0> a <Interpretation> ;
+    <inFavourOf> <theory_0> .
+
+<interpretation_1> a <Interpretation> ;
+    <inFavourOf> <theory_1> .
+
+<interpretation_2> a <Interpretation> ;
+    <inFavourOf> <theory_2> .
+
+<LackOfDocumentation> a <LackOfDocumentation>,
+        owl:Class ;
+    <partOf> <interpretation_2> .
+
+<Mixed> a owl:Class ;
+    rdfs:subClassOf persp:Attitude .
+
+<Proponent_7> a <Proponent> ;
+    <hasContent> "erich von däniken" .
+
+<interpretation_3> a <Interpretation> ;
+    <inFavourOf> <theory_3> .
+
+<interpretation_4> a <Interpretation> ;
+    <inFavourOf> <theory_4> .
+
+<SizeAsImprobableToBuildByHumans> a <SizeAsImprobableToBuildByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_10>,
+        <interpretation_16>,
+        <interpretation_18>,
+        <interpretation_2>,
+        <interpretation_5>,
+        <interpretation_8> .
+
+<TechnologyAsImprobableCreatedByHumans> a <TechnologyAsImprobableCreatedByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_14>,
+        <interpretation_16>,
+        <interpretation_18>,
+        <interpretation_26>,
+        <interpretation_30>,
+        <interpretation_8> .
+
+<E73InformationObject_3> a cidoccrm:E73_Information_Object ;
+    <hasContent> "von daniken, erich. \"chariots of the gods? unsolved mysteries of the past\", putnam, 1968" .
+
+<Method_14> a arco_core:Method ;
+    <hasContent> "stratigraphy" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<Method_15> a arco_core:Method ;
+    <hasContent> "excavations" ;
+    <involves> <RelevantFindingsResultingFromMethod> .
+
+<PhysicalDescriptionAsProbableToBuildByHumans> a <PhysicalDescriptionAsProbableToBuildByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_0>,
+        <interpretation_1>,
+        <interpretation_13>,
+        <interpretation_3>,
+        <interpretation_4> .
+
+<Stonehenge> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_2> ;
+    dcterms:coverage <PeriodOfTime_2> ;
+    <hasSizeSpecification> <SizeSpecification_2> ;
+    schema:SizeSpecification <SizeSpecification_2> ;
+    schema:location <Location_2> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_10>,
+        <CulturalPropertyComponent_11>,
+        <CulturalPropertyComponent_12>,
+        <CulturalPropertyComponent_9> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_11>,
+        <Technology_12>,
+        <Technology_13>,
+        <Technology_14> ;
+    arco_core:Agent <Agent_4>,
+        <Agent_5>,
+        <Agent_6> ;
+    arco_core:Location <Location_2> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_6>,
+        <FunctionalPurpose_7>,
+        <FunctionalPurpose_8> ;
+    getty:PhysicalDescription <PhysicalDescription_10>,
+        <PhysicalDescription_11>,
+        <PhysicalDescription_12>,
+        <PhysicalDescription_3>,
+        <PhysicalDescription_4>,
+        <PhysicalDescription_5>,
+        <PhysicalDescription_6>,
+        <PhysicalDescription_7>,
+        <PhysicalDescription_8>,
+        <PhysicalDescription_9> ;
+    wd:Myth <Myth_5> .
+
+<TechnologyAsProbableCreatedByHumans> a <TechnologyAsProbableCreatedByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_0>,
+        <interpretation_1>,
+        <interpretation_3>,
+        <interpretation_4> .
+
+<Great_Pyramid_of_Giza> a arco:ArchaeologicalProperty ;
+    dcterms:PeriodOfTime <PeriodOfTime_0> ;
+    dcterms:coverage <PeriodOfTime_0> ;
+    dcterms:creator <Agent_0> ;
+    <hasFunctionalPurpose> <FunctionalPurpose_0>,
+        <FunctionalPurpose_1> ;
+    <hasMyth> <Myth_0>,
+        <Myth_1> ;
+    <hasPhysicalDescription> <PhysicalDescription_0>,
+        <PhysicalDescription_1> ;
+    <hasSizeSpecification> <SizeSpecification_0> ;
+    schema:SizeSpecification <SizeSpecification_0> ;
+    schema:location <Location_0> ;
+    arco:CulturalPropertyComponent <CulturalPropertyComponent_0>,
+        <CulturalPropertyComponent_1>,
+        <CulturalPropertyComponent_2> ;
+    arco:ScientificOrTechnologicalHeritage <Technology_0>,
+        <Technology_1>,
+        <Technology_2>,
+        <Technology_3>,
+        <Technology_4>,
+        <Technology_5>,
+        <Technology_6>,
+        <Technology_7>,
+        <Technology_8> ;
+    arco:hasCulturalPropertyComponent <CulturalPropertyComponent_0>,
+        <CulturalPropertyComponent_1>,
+        <CulturalPropertyComponent_2> ;
+    arco_core:Agent <Agent_0>,
+        <Agent_1> ;
+    arco_core:Location <Location_0> ;
+    arco_den_desc:FunctionalPurpose <FunctionalPurpose_0>,
+        <FunctionalPurpose_1>,
+        <FunctionalPurpose_2> ;
+    getty:PhysicalDescription <PhysicalDescription_0>,
+        <PhysicalDescription_1> ;
+    wd:Myth <Myth_0>,
+        <Myth_1>,
+        <Myth_2> .
+
+<RelevantFindingsResultingFromMethod> a <RelevantFindingsResultingFromMethod>,
+        owl:Class ;
+    <partOf> <interpretation_1>,
+        <interpretation_15>,
+        <interpretation_17>,
+        <interpretation_19>,
+        <interpretation_22> .
+
+arco:ArchaeologicalProperty a owl:Class ;
+    rdfs:subClassOf persp:Eventuality .
+
+arco_core:Location a owl:Class ;
+    rdfs:subClassOf persp:Background .
+
+dcterms:PeriodOfTime a owl:Class ;
+    rdfs:subClassOf persp:Background .
+
+schema:SizeSpecification a owl:Class .
+
+<PhysicalDescriptionAsImprobableToBuildByHumans> a <PhysicalDescriptionAsImprobableToBuildByHumans>,
+        owl:Class ;
+    <partOf> <interpretation_2>,
+        <interpretation_20>,
+        <interpretation_24>,
+        <interpretation_28>,
+        <interpretation_30>,
+        <interpretation_5> .
+
+<PseudoarchaeologicalTheory> a owl:Class ;
+    rdfs:subClassOf persp:Lens .
+
+wd:Myth a owl:Class .
+
+<Proponent> a owl:Class .
+
+arco_cont_desc:Documentation a owl:Class ;
+    rdfs:subClassOf persp:Background .
+
+arco_core:Agent a owl:Class ;
+    rdfs:subClassOf persp:Background .
+
+<RelevantCulturalPropertyComponent> a <RelevantCulturalPropertyComponent>,
+        owl:Class ;
+    <partOf> <interpretation_0>,
+        <interpretation_12>,
+        <interpretation_13>,
+        <interpretation_19>,
+        <interpretation_21>,
+        <interpretation_27>,
+        <interpretation_28>,
+        <interpretation_29>,
+        <interpretation_3>,
+        <interpretation_31>,
+        <interpretation_6>,
+        <interpretation_9> .
+
+<Supportive> a owl:Class ;
+    rdfs:subClassOf persp:Attitude .
+
+<Skeptical> a owl:Class ;
+    rdfs:subClassOf persp:Attitude .
+
+<Interpretation> a owl:Class ;
+    rdfs:subClassOf persp:Cut .
+
+<Theory> a owl:Class .
+
+cidoccrm:E73_Information_Object a owl:Class .
+
+arco_den_desc:FunctionalPurpose a owl:Class .
+
+arco_core:Method a owl:Class .
+
+arco:CulturalPropertyComponent a owl:Class .
+
+arco:ScientificOrTechnologicalHeritage a owl:Class .
+
+getty:PhysicalDescription a owl:Class .
+
+persp:Conceptualiser a owl:Class .
+
