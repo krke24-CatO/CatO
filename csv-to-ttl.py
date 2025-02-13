@@ -149,10 +149,11 @@ for idx, row in df.iterrows():
     else:
         g.add((theory_name, cato.theoryType, cato.PseudoarchaeologicalTheory))
 
-    interpretations = row["Interpretation"].split("; ")
+    interpretations = row["Interpretation"].split(", ")
     interpretation_name = URIRef(cato + "interpretation_" + str(idx))
     g.add((interpretation_name, RDF.type, cato.Interpretation))
     g.add((interpretation_name, cato.inFavourOf, theory_name))
+    g.add((interpretation_name, cato.hasContent, Literal(row["Interpretation"])))
     archeologists = URIRef(cato + "Archeologists_" + str(idx))
     pseudoarcheologists = URIRef(cato + "Pseudoarcheologists_" + str(idx))
     g.add((archeologists, RDF.type, persp.Conceptualiser))
@@ -164,53 +165,51 @@ for idx, row in df.iterrows():
 
     for key in theory_attributes_dict:
         if row[key] != "":
-            theory_attribute = row[key].lower().split("; ")
+            att = row[key].lower()
             theory_attribute_elem = theory_attributes_dict[key]
-            for att in theory_attribute:
-                if att not in attribute_elems_dict[key].keys():
-                    attribute_elems_dict[key][att] = key + "_" + str(len(attribute_elems_dict[key]))
-                    att_name = URIRef(cato + attribute_elems_dict[key][att])
-                    g.add((att_name, RDF.type, theory_attribute_elem[0]))
-                    g.add((att_name, cato.hasContent, Literal(att)))
-                    g.add((theory_name, theory_attribute_elem[1], att_name))
-                else:
-                    att_name = URIRef(cato + attribute_elems_dict[key][att])
-                    g.add((theory_name, theory_attribute_elem[1], att_name))
-                if len(theory_attribute_elem) > 2:
-                    for interpretation_type in interpretations:
-                        if interpretation_type in theory_attribute_elem[2]:
-                           intpt = URIRef(cato + interpretation_type)
-                           g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
-                           g.add((intpt, cato.partOf, interpretation_name))
-                           g.add((att_name, cato.involves, intpt))
+            if att not in attribute_elems_dict[key].keys():
+                attribute_elems_dict[key][att] = key + "_" + str(len(attribute_elems_dict[key]))
+                att_name = URIRef(cato + attribute_elems_dict[key][att])
+                g.add((att_name, RDF.type, theory_attribute_elem[0]))
+                g.add((att_name, cato.hasContent, Literal(att)))
+                g.add((theory_name, theory_attribute_elem[1], att_name))
+            else:
+                att_name = URIRef(cato + attribute_elems_dict[key][att])
+                g.add((theory_name, theory_attribute_elem[1], att_name))
+            if len(theory_attribute_elem) > 2:
+                for interpretation_type in interpretations:
+                    if interpretation_type in theory_attribute_elem[2]:
+                        intpt = URIRef(cato + interpretation_type)
+                        g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
+                        g.add((intpt, cato.partOf, interpretation_name))
+                        g.add((att_name, cato.involves, intpt))
 
     for key in attributes_dict:
         if row[key] != "":
-            attribute = row[key].lower().split("; ")
+            att = row[key].lower()
             attribute_elem = attributes_dict[key]
-            for att in attribute:
-                if att not in attribute_elems_dict[key].keys():
-                    attribute_elems_dict[key][att] = key + "_" + str(len(attribute_elems_dict[key]))
-                    att_name = URIRef(cato + attribute_elems_dict[key][att])
-                    g.add((att_name, RDF.type, attribute_elem[0]))
-                    g.add((att_name, cato.hasContent, Literal(att)))
-                    if key == "Documentation":
-                        g.add((att_name, attribute_elem[0], ap))
-                    else:
-                        g.add((ap, attribute_elem[0], att_name))
+            if att not in attribute_elems_dict[key].keys():
+                attribute_elems_dict[key][att] = key + "_" + str(len(attribute_elems_dict[key]))
+                att_name = URIRef(cato + attribute_elems_dict[key][att])
+                g.add((att_name, RDF.type, attribute_elem[0]))
+                g.add((att_name, cato.hasContent, Literal(att)))
+                if key == "Documentation":
+                    g.add((att_name, attribute_elem[1], ap))
                 else:
-                    att_name = URIRef(cato + attribute_elems_dict[key][att])
-                    if key == "Documentation":
-                        g.add((att_name, attribute_elem[1], ap))
-                    else:
-                        g.add((ap, attribute_elem[1], att_name))
-                if len(attribute_elem) > 2:
-                    for interpretation_type in interpretations:
-                        if interpretation_type in attribute_elem[2]:
-                           intpt = URIRef(cato + interpretation_type)
-                           g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
-                           g.add((intpt, cato.partOf, interpretation_name))
-                           g.add((att_name, cato.involves, intpt))
+                    g.add((ap, attribute_elem[1], att_name))
+            else:
+                att_name = URIRef(cato + attribute_elems_dict[key][att])
+                if key == "Documentation":
+                    g.add((att_name, attribute_elem[1], ap))
+                else:
+                    g.add((ap, attribute_elem[1], att_name))
+            if len(attribute_elem) > 2:
+                for interpretation_type in interpretations:
+                    if interpretation_type in attribute_elem[2]:
+                        intpt = URIRef(cato + interpretation_type)
+                        g.add((intpt, RDF.type, URIRef(cato + interpretation_type)))
+                        g.add((intpt, cato.partOf, interpretation_name))
+                        g.add((att_name, cato.involves, intpt))
     
 
 turtle_str = g.serialize(format="turtle", base=cato, encoding="utf-8")
