@@ -5,7 +5,7 @@ from rdflib.namespace import XSD, OWL, RDF, RDFS, DCTERMS
 url = "https://raw.githubusercontent.com/krke24-CatO/CatO/refs/heads/main/data.csv"
 df = pd.read_csv(url,on_bad_lines="skip").fillna("")
 g = Graph()
-cato = Namespace("http://www.semanticweb.org/CatO/")
+cato = Namespace("http://w3c.org/CatO/")
 persp = Namespace("http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#")
 arco = Namespace("https://w3id.org/arco/ontology/arco/")
 arco_core = Namespace("https://w3id.org/arco/ontology/core/")

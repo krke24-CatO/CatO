@@ -1,9 +1,9 @@
-@base <http://www.semanticweb.org/CatO/> .
+@base <http://w3c.org/CatO/> .
 @prefix arco: <https://w3id.org/arco/ontology/arco/> .
 @prefix arco_cont_desc: <https://w3id.org/arco/ontology/context-description/> .
 @prefix arco_core: <https://w3id.org/arco/ontology/core/> .
 @prefix arco_den_desc: <https://w3id.org/arco/ontology/denotative-description/> .
-@prefix cato: <http://www.semanticweb.org/CatO/> .
+@prefix cato: <http://w3c.org/CatO/> .
 @prefix cidoccrm: <http://www.cidoc-crm.org/cidoc-crm/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix getty: <https://www.getty.edu/> .
