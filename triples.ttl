@@ -365,7 +365,7 @@ schema:about a owl:ObjectProperty .
 
 schema:location a owl:ObjectProperty .
 
-schema:mentiones a owl:ObjectProperty .
+schema:mentions a owl:ObjectProperty .
 
 arco:hasCulturalPropertyComponent a owl:ObjectProperty .
 

@@ -27,24 +27,8 @@
         <rdfs:comment>The Comparative Archeological Theories Ontology (CatO) aims to create a framework to compare archeological and pseudoarcheological theories concerning archeological sites. In particular we have chosen to analyse structures and sites believed to be created by nonhuman entities.
 
 It is designed for an end-of-course project for Knowledge Representation and Knowledge Extraction, taught by Professor Aldo Gangemi during the a.y. 2023/2024 at the University of Bologna, part of the Master’s program in Digital Humanities and Digital Knowledge.</rdfs:comment>
+        <rdfs:seeAlso>https://j-u.gitbook.io/comparative-archeological-theories-ontology</rdfs:seeAlso>
     </Ontology>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotation properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- https://schema.org/mentions -->
-
-    <AnnotationProperty rdf:about="https://schema.org/mentions"/>
     
 
 
@@ -74,6 +58,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://purl.org/dc/terms/PeriodOfTime"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>The spatial or temporal topic of the resource, spatial applicability of the resource, or jurisdiction under which the resource is relevant.</rdfs:comment>
+        <rdfs:comment>http://purl.org/dc/terms/coverage</rdfs:comment>
     </ObjectProperty>
     
 
@@ -93,6 +79,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Agent"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>An entity responsible for making the resource.</rdfs:comment>
+        <rdfs:comment>http://purl.org/dc/terms/creator</rdfs:comment>
     </ObjectProperty>
     
 
@@ -112,6 +100,20 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>This property associates an instance of E73 Information Object with an instance of E90 Symbolic Object (or any of its subclasses) that was included in it.
+
+This property makes it possible to recognise the autonomous status of the incorporated signs, which were created in a distinct context, and can be incorporated in many instances of E73 Information Object, and to highlight the difference between structural and accidental whole-part relationships between conceptual entities.
+
+It accounts for many cultural facts that are quite frequent and significant: the inclusion of a poem in an anthology, the re-use of an operatic aria in a new opera, the use of a reproduction of a painting for a book cover or a CD booklet, the integration of textual quotations, the presence of lyrics in a song that sets those lyrics to music, the presence of the text of a play in a movie based on that play, etc.
+
+In particular, this property allows for modelling relationships of different levels of symbolic specificity, such as the natural language words making up a particular text, the characters making up the words and punctuation, the choice of fonts and page layout for the characters.
+
+When restricted to information objects, that is, seen as a property with E73 Information Object as domain and range the property is transitive.
+
+A digital photograph of a manuscript page incorporates the text of a manuscript page, if the respective text is defined as a sequence of symbols of a particular type, such as Latin characters, and the resolution and quality of the digital image is sufficient to resolve these symbols so they are readable on the digital image.
+
+This property is asymmetric.</rdfs:comment>
+        <rdfs:comment>http://www.cidoc-crm.org/cidoc-crm/P165i_is_incorporated_in</rdfs:comment>
     </ObjectProperty>
     
 
@@ -150,6 +152,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/ScientificOrTechnologicalHeritage"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses what technology was used to build an archeological property.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/builtWith</rdfs:comment>
     </ObjectProperty>
     
 
@@ -169,6 +173,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://www.semanticweb.org/CatO/Interpretation"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the attitude of a conceptualizer towards an interpretation.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasAttitudeTowards</rdfs:comment>
     </ObjectProperty>
     
 
@@ -188,6 +194,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/denotative-description/FunctionalPurpose"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the functional purpose of an archeological property.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasFunctionalPurpose</rdfs:comment>
     </ObjectProperty>
     
 
@@ -207,6 +215,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://www.wikidata.org/wiki/Myth"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses a myth related to an archeological property.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasMyth</rdfs:comment>
     </ObjectProperty>
     
 
@@ -226,6 +236,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://www.getty.edu/PhysicalDescription"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the physical description of an archeological property.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasPhysicalDescription</rdfs:comment>
     </ObjectProperty>
     
 
@@ -245,6 +257,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://schema.org/SizeSpecification"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the size measurements of an archeological property.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasSizeSpecification</rdfs:comment>
     </ObjectProperty>
     
 
@@ -264,6 +278,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://www.semanticweb.org/CatO/Theory"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the replationship between an interpretation and the theory it favour.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/inFavourOf</rdfs:comment>
     </ObjectProperty>
     
 
@@ -359,6 +375,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 </unionOf>
             </Class>
         </rdfs:range>
+        <rdfs:comment>Expresses the interpretation of a characteristic of an archeological site.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/involves</rdfs:comment>
     </ObjectProperty>
     
 
@@ -422,6 +440,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://www.semanticweb.org/CatO/Interpretation"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Specifies weather the interpretation of a specific element is part of the overall interpretation that leads to the theory.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/partOf</rdfs:comment>
     </ObjectProperty>
     
 
@@ -441,6 +461,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="http://www.semanticweb.org/CatO/Proponent"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Expresses the person that proposed a theory.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/proposedBy</rdfs:comment>
     </ObjectProperty>
     
 
@@ -468,6 +490,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 </unionOf>
             </Class>
         </rdfs:range>
+        <rdfs:comment>Expresses the type of theory.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/theoryType</rdfs:comment>
     </ObjectProperty>
     
 
@@ -487,6 +511,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>The subject matter of the content.</rdfs:comment>
+        <rdfs:comment>https://schema.org/about</rdfs:comment>
     </ObjectProperty>
     
 
@@ -506,25 +532,29 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Location"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>The location of, for example, where an event is happening, where an organization is located, or where an action takes place.</rdfs:comment>
+        <rdfs:comment>https://schema.org/location</rdfs:comment>
     </ObjectProperty>
     
 
 
-    <!-- https://schema.org/mentiones -->
+    <!-- https://schema.org/mentions -->
 
-    <ObjectProperty rdf:about="https://schema.org/mentiones">
+    <ObjectProperty rdf:about="https://schema.org/mentions">
         <rdfs:domain>
             <Restriction>
-                <onProperty rdf:resource="https://schema.org/mentiones"/>
+                <onProperty rdf:resource="https://schema.org/mentions"/>
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
             </Restriction>
         </rdfs:domain>
         <rdfs:range>
             <Restriction>
-                <onProperty rdf:resource="https://schema.org/mentiones"/>
+                <onProperty rdf:resource="https://schema.org/mentions"/>
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>Indicates that the CreativeWork contains a reference to, but is not necessarily about a concept.</rdfs:comment>
+        <rdfs:comment>https://schema.org/mentions</rdfs:comment>
     </ObjectProperty>
     
 
@@ -544,6 +574,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/arco/CulturalPropertyComponent"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>This property relates a cultural property to its components.</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/arco/hasCulturalPropertyComponent</rdfs:comment>
     </ObjectProperty>
     
 
@@ -563,6 +595,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
                 <someValuesFrom rdf:resource="https://w3id.org/arco/ontology/core/Method"/>
             </Restriction>
         </rdfs:range>
+        <rdfs:comment>The object property that links an entity to a method.</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/core/hasMethod</rdfs:comment>
     </ObjectProperty>
     
 
@@ -580,7 +614,10 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.semanticweb.org/CatO/hasContent -->
 
-    <DatatypeProperty rdf:about="http://www.semanticweb.org/CatO/hasContent"/>
+    <DatatypeProperty rdf:about="http://www.semanticweb.org/CatO/hasContent">
+        <rdfs:comment>Expresses the literal value of an entity.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/hasContent</rdfs:comment>
+    </DatatypeProperty>
     
 
 
@@ -599,13 +636,22 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="http://purl.org/dc/terms/PeriodOfTime">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:comment>An interval of time that is named or defined by its start and end dates.</rdfs:comment>
+        <rdfs:comment>http://purl.org/dc/terms/PeriodOfTime</rdfs:comment>
     </Class>
     
 
 
     <!-- http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object -->
 
-    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object"/>
+    <Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object">
+        <rdfs:comment>This class comprises identifiable immaterial items, such as poems, jokes, data sets, images, texts, multimedia objects, procedural prescriptions, computer program code, algorithm or mathematical formulae, that have an objectively recognizable structure and are documented as single units. The encoding structure known as a “named graph” also falls under this class, so that each “named graph” is an instance of E73 Information Object.
+
+An instance of E73 Information Object does not depend on a specific physical carrier, which can include human memory, and it can exist on one or more carriers simultaneously.
+
+Instances of E73 Information Object of a linguistic nature should be declared as instances of the E33 Linguistic Object subclass. Instances of E73 Information Object of a documentary nature should be declared as instances of the E31 Document subclass. Conceptual items such as types and classes are not instances of E73 Information Object, nor are ideas without a reproducible expression.</rdfs:comment>
+        <rdfs:comment>http://www.cidoc-crm.org/cidoc-crm/E73_Information_Object</rdfs:comment>
+    </Class>
     
 
 
@@ -623,7 +669,9 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Conceptualiser -->
 
-    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Conceptualiser"/>
+    <Class rdf:about="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Conceptualiser">
+        <rdfs:comment>http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Conceptualiser</rdfs:comment>
+    </Class>
     
 
 
@@ -649,6 +697,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="http://www.semanticweb.org/CatO/ArchaeologicalTheory">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Lens"/>
+        <rdfs:comment>Represents the scientifically accepted theory or explanation for the origin, purpose, and construction of an ancient site.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/ArchaeologicalTheory</rdfs:comment>
     </Class>
     
 
@@ -663,6 +713,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="http://www.semanticweb.org/CatO/Interpretation">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Cut"/>
+        <rdfs:comment>General explanation or hypothesis regarding the origin, function, or meaning of an artifact, site, or structure.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Interpretation</rdfs:comment>
     </Class>
     
 
@@ -695,7 +747,10 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.semanticweb.org/CatO/Proponent -->
 
-    <Class rdf:about="http://www.semanticweb.org/CatO/Proponent"/>
+    <Class rdf:about="http://www.semanticweb.org/CatO/Proponent">
+        <rdfs:comment>A person who proposes a theory.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Proponent</rdfs:comment>
+    </Class>
     
 
 
@@ -767,13 +822,19 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.semanticweb.org/CatO/Theory -->
 
-    <Class rdf:about="http://www.semanticweb.org/CatO/Theory"/>
+    <Class rdf:about="http://www.semanticweb.org/CatO/Theory">
+        <rdfs:comment>System of ideas intended to explain something.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Theory</rdfs:comment>
+    </Class>
     
 
 
     <!-- https://schema.org/SizeSpecification -->
 
-    <Class rdf:about="https://schema.org/SizeSpecification"/>
+    <Class rdf:about="https://schema.org/SizeSpecification">
+        <rdfs:comment>Size related properties of a product, typically a size code (name) and optionally a sizeSystem, sizeGroup, and product measurements (hasMeasurement). In addition, the intended audience can be defined through suggestedAge, suggestedGender, and suggested body measurements (suggestedMeasurement).</rdfs:comment>
+        <rdfs:comment>https://schema.org/SizeSpecification</rdfs:comment>
+    </Class>
     
 
 
@@ -809,6 +870,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="https://w3id.org/arco/ontology/context-description/Documentation">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:comment>This class represents the documentation, with subclasses for each specific type of documentation (images, drawings, audio, video, etc.)</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/context-description/Documentation</rdfs:comment>
     </Class>
     
 
@@ -817,6 +880,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="https://w3id.org/arco/ontology/core/Agent">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:comment>This class represents an agent, either physical (e.g. a person) or social (e.g. an orgamization).</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/core/Agent</rdfs:comment>
     </Class>
     
 
@@ -825,6 +890,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <Class rdf:about="https://w3id.org/arco/ontology/core/Location">
         <rdfs:subClassOf rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl#Background"/>
+        <rdfs:comment>This class represents the location of an entity (e.g. of a cultural entity).</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/core/Location</rdfs:comment>
     </Class>
     
 
@@ -840,19 +907,26 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- https://w3id.org/arco/ontology/denotative-description/FunctionalPurpose -->
 
-    <Class rdf:about="https://w3id.org/arco/ontology/denotative-description/FunctionalPurpose"/>
+    <Class rdf:about="https://w3id.org/arco/ontology/denotative-description/FunctionalPurpose">
+        <rdfs:comment>This class represents the functional purpose (i.e. decorative, religious, symbolic, magic-offensive) of an object (i.e. culural property or iconographic/decorative apparatus or affixed element on a cultural property like an inscription). The functional purpose is intended as the function that an object has to perform.</rdfs:comment>
+        <rdfs:comment>https://w3id.org/arco/ontology/denotative-description/FunctionalPurpose</rdfs:comment>
+    </Class>
     
 
 
     <!-- https://www.getty.edu/PhysicalDescription -->
 
-    <Class rdf:about="https://www.getty.edu/PhysicalDescription"/>
+    <Class rdf:about="https://www.getty.edu/PhysicalDescription">
+        <rdfs:comment>A description of the appearance of a work expressed in generic terms, without reference to the subject depicted. This includes the names of any recognizable patterns, motifs, or textures used in the decoration of the work.</rdfs:comment>
+    </Class>
     
 
 
     <!-- https://www.wikidata.org/wiki/Myth -->
 
-    <Class rdf:about="https://www.wikidata.org/wiki/Myth"/>
+    <Class rdf:about="https://www.wikidata.org/wiki/Myth">
+        <rdfs:comment>https://www.wikidata.org/wiki/Q12827256</rdfs:comment>
+    </Class>
     
 
 
@@ -1123,7 +1197,9 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.semanticweb.org/CatO/ArcheologicalTheory -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/ArcheologicalTheory"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/ArcheologicalTheory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/CatO/ArchaeologicalTheory"/>
+    </NamedIndividual>
     
 
 
@@ -1662,8 +1738,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_0">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>herodotus, the histories, wall painting in the tomb of djerhuty-hotep showing his statue being moved by a team of men dragging it on a sledge </cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Great_Pyramid_of_Giza"/>
+        <cato:hasContent>herodotus, the histories, wall painting in the tomb of djerhuty-hotep showing his statue being moved by a team of men dragging it on a sledge </cato:hasContent>
     </NamedIndividual>
     
 
@@ -1673,8 +1749,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_1">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
         <cato:involves rdf:resource="http://www.semanticweb.org/CatO/LackOfDocumentation"/>
-        <cato:hasContent>herodotus, the histories, al-mas‘udi’s, meadows of gold, lack of precise documentation about how exactely the great pyramid was built</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Great_Pyramid_of_Giza"/>
+        <cato:hasContent>herodotus, the histories, al-mas‘udi’s, meadows of gold, lack of precise documentation about how exactely the great pyramid was built</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1683,8 +1759,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_10">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>underwater surveys and geological studies</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Yonaguni_Monument"/>
+        <cato:hasContent>underwater surveys and geological studies</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1693,8 +1769,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_11">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>excavations, inscriptions, artifacts</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Tiwanaku"/>
+        <cato:hasContent>excavations, inscriptions, artifacts</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1703,8 +1779,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_12">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>inscriptions, bas-reliefs, archaeological surveys</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Angkor_Wat"/>
+        <cato:hasContent>inscriptions, bas-reliefs, archaeological surveys</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1713,8 +1789,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_13">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>inscriptions, archaeological surveys, ancient texts</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Petra"/>
+        <cato:hasContent>inscriptions, archaeological surveys, ancient texts</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1723,8 +1799,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_2">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>radiocarbon dating of site materials, excavation reports, alignments documented by archaeologists.</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Stonehenge"/>
+        <cato:hasContent>radiocarbon dating of site materials, excavation reports, alignments documented by archaeologists.</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1733,8 +1809,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_3">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>religious texts (texts and practices of hinduism, ancient egyptian religion, gnostic christianity and mormonism)</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Stonehenge"/>
+        <cato:hasContent>religious texts (texts and practices of hinduism, ancient egyptian religion, gnostic christianity and mormonism)</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1743,8 +1819,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_4">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>speculative claims in popular media</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Puma_Punku"/>
+        <cato:hasContent>speculative claims in popular media</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1753,8 +1829,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_5">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>excavation reports, historical analysis</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Puma_Punku"/>
+        <cato:hasContent>excavation reports, historical analysis</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1763,8 +1839,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_6">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>european explorer accounts, archaeological research</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Easter_Island_(Moai_Statues)"/>
+        <cato:hasContent>european explorer accounts, archaeological research</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1773,8 +1849,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_7">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>excavations, roman inscriptions, scholarly research</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Baalbek_(Temple_of_Jupiter)"/>
+        <cato:hasContent>excavations, roman inscriptions, scholarly research</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1783,8 +1859,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_8">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>excavations, fresco analysis</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Sigiriya"/>
+        <cato:hasContent>excavations, fresco analysis</cato:hasContent>
     </NamedIndividual>
     
 
@@ -1793,8 +1869,8 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/Documentation_9">
         <rdf:type rdf:resource="https://w3id.org/arco/ontology/context-description/Documentation"/>
-        <cato:hasContent>excavations, murals, artifacts</cato:hasContent>
         <schema:mentions rdf:resource="http://www.semanticweb.org/CatO/Teotihuacan"/>
+        <cato:hasContent>excavations, murals, artifacts</cato:hasContent>
     </NamedIndividual>
     
 
@@ -3539,7 +3615,9 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <!-- http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory -->
 
-    <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory"/>
+    <NamedIndividual rdf:about="http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory">
+        <rdf:type rdf:resource="http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory"/>
+    </NamedIndividual>
     
 
 
@@ -5331,6 +5409,77 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
         <arco:hasCulturalPropertyComponent rdf:resource="http://www.semanticweb.org/CatO/CulturalPropertyComponent_10"/>
         <arco:hasCulturalPropertyComponent rdf:resource="http://www.semanticweb.org/CatO/CulturalPropertyComponent_11"/>
     </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/BasedOnMyth">
+        <rdfs:comment>Interpretation or theory that is influenced by myths, legends, or folklore.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/BasedOnMyth</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/LackOfDocumentation">
+        <rdfs:comment>Absence of historical records, inscriptions, or documentation that could help explain the origin, purpose, or construction of an artifact or site.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/LackOfDocumentation</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/Mixed">
+        <rdfs:comment>Doubtful or questioning attitude toward a theory, interpretation, or claim.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Mixed</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/PhysicalDescriptionAsImprobableToBuildByHumans">
+        <rdfs:comment>Physical characteristics (materials, precision, complexity) of an artifact or structure suggest it could not have been made by humans with known techniques.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/PhysicalDescriptionAsImprobableToBuildByHumans</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/PhysicalDescriptionAsProbableToBuildByHumans">
+        <rdfs:comment>Physical characteristics (materials, design, construction methods) of an artifact or structure suggest it was feasibly made by human.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/PhysicalDescriptionAsProbableToBuildByHumans</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory">
+        <rdfs:comment>Represents pseudoarchaeological interpretations or theories about ancient sites that diverge from mainstream archaeological explanations.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/PseudoarchaeologicalTheory</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/RelevantCulturalPropertyComponent">
+        <rdfs:comment>Aspect of an artifact or site that holds cultural, religious, or symbolic significance for a particular society.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/RelevantCulturalPropertyComponent</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/RelevantFindingsResultingFromMethod">
+        <rdfs:comment>Discoveries made through a specific investigative or scientific method that contribute to understanding an artifact or site.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/RelevantFindingsResultingFromMethod</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/RelevantFunctionalPurpose">
+        <rdfs:comment>Possible practical use or intended function of an object or structure within its historical or cultural context.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/RelevantFunctionalPurpose</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/SizeAsImprobableToBuildByHumans">
+        <rdfs:comment>Suggests that the size of a structure or artifact is too large or complex to have been built by humans with known historical technologies.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/SizeAsImprobableToBuildByHumans</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/SizeAsProbableToBuildByHumans">
+        <rdfs:comment>Indicates that the size of a structure or artifact is reasonable for human construction using known historical techniques.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/SizeAsProbableToBuildByHumans</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/Skeptical">
+        <rdfs:comment>Mixed attitude (some are skeptical, while others are supportive) toward a theory, interpretation, or claim.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Skeptical</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/Supportive">
+        <rdfs:comment>Positive or accepting attitude toward a theory, interpretation, or claim.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/Supportive</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/TechnologyAsImprobableCreatedByHumans">
+        <rdfs:comment>Technological aspects of an artifact or site appear too advanced for the time period and may suggest unknown influences.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/TechnologyAsImprobableCreatedByHumans</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/CatO/TechnologyAsProbableCreatedByHumans">
+        <rdfs:comment>Technological aspects of an artifact or site align with human capabilities and historical knowledge.</rdfs:comment>
+        <rdfs:comment>http://www.semanticweb.org/CatO/TechnologyAsProbableCreatedByHumans</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
