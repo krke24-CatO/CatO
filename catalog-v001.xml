@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="https://w3id.org/arco/ontology/arco/2.0" uri="https://w3id.org/arco/ontology/arco"/>
+    <uri id="Imports Wizard Entry" name="http://w3c.org/CatO/" uri="cato.owl"/>
+    <uri id="Imports Wizard Entry" name="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl" uri="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl"/>
+    <uri id="User Entered Import Resolution" name="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl" uri="catalog-v001.xml"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1739827983166" name="http://www.w3.org/2002/07/owl" uri="cato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1739896270020" name="http://www.w3.org/2002/07/owl" uri="cato.owl"/>
     </group>
 </catalog>
