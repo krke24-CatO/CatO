@@ -88,6 +88,7 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <ObjectProperty rdf:about="http://purl.org/dc/terms/creator">
         <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/core/Agent"/>
     </ObjectProperty>
     
 
@@ -5173,7 +5174,6 @@ Instances of E73 Information Object of a linguistic nature should be declared as
 
     <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
         <rdfs:comment>An entity responsible for making the resource.</rdfs:comment>
-        <rdfs:comment>http://purl.org/dc/terms/creator</rdfs:comment>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3c.org/CatO/BasedOnMyth">
         <rdfs:comment>Interpretation or theory that is influenced by myths, legends, or folklore.</rdfs:comment>
