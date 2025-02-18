@@ -32,7 +32,6 @@
     <Ontology rdf:about="http://w3c.org/CatO/">
         <imports rdf:resource="http://w3c.org/CatO/"/>
         <imports rdf:resource="http://www.ontologydesignpatterns.org/ont/persp/perspectivisation.owl"/>
-        <imports rdf:resource="https://w3id.org/arco/ontology/arco/2.0"/>
         <dc:creator>Ezgi Çolakoğlu</dc:creator>
         <dc:creator>Giorgia Umana</dc:creator>
         <dc:creator>Valentina Bertelli</dc:creator>
@@ -41,6 +40,25 @@
 It is designed for an end-of-course project for Knowledge Representation and Knowledge Extraction, taught by Professor Aldo Gangemi during the a.y. 2023/2024 at the University of Bologna, part of the Master’s program in Digital Humanities and Digital Knowledge.</rdfs:comment>
         <rdfs:seeAlso>https://j-u.gitbook.io/comparative-archeological-theories-ontology</rdfs:seeAlso>
     </Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <AnnotationProperty rdf:about="http://purl.org/dc/terms/creator">
+        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/core/Agent"/>
+    </AnnotationProperty>
     
 
 
@@ -70,9 +88,6 @@ It is designed for an end-of-course project for Knowledge Representation and Kno
 
     <ObjectProperty rdf:about="http://purl.org/dc/terms/creator">
         <rdfs:domain rdf:resource="https://w3id.org/arco/ontology/arco/ArchaeologicalProperty"/>
-        <rdfs:range rdf:resource="https://w3id.org/arco/ontology/core/Agent"/>
-        <rdfs:comment>An entity responsible for making the resource.</rdfs:comment>
-        <rdfs:comment>http://purl.org/dc/terms/creator</rdfs:comment>
     </ObjectProperty>
     
 
@@ -5156,6 +5171,10 @@ Instances of E73 Information Object of a linguistic nature should be declared as
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+        <rdfs:comment>An entity responsible for making the resource.</rdfs:comment>
+        <rdfs:comment>http://purl.org/dc/terms/creator</rdfs:comment>
+    </rdf:Description>
     <rdf:Description rdf:about="http://w3c.org/CatO/BasedOnMyth">
         <rdfs:comment>Interpretation or theory that is influenced by myths, legends, or folklore.</rdfs:comment>
         <rdfs:comment>http://w3c.org/CatO/BasedOnMyth</rdfs:comment>
